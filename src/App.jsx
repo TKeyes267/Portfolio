@@ -26,48 +26,69 @@ function App() {
                 className="section"
                 style={{
                   height: "100%",
-                  backgroundColor: "yellow",
-                  // backgroundImage:
-                  //   'url("https://images.unsplash.com/photo-1506744038136-46273834b3fb?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxleHBsb3JlLWZlZWR8MXx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=800&q=60")',
-                  // backgroundSize: "cover",
+                  backgroundColor: "black",
                 }}
               >
-                <Header />
+                {/* <Header /> */}
                 <Landing />
-                <button onClick={() => fullpageApi.moveSectionDown()}>
+                <button
+                  className="hover:text-green-500 transition-colors"
+                  onClick={() => fullpageApi.moveSectionDown()}
+                >
                   <ArrowCircleDownIcon> </ArrowCircleDownIcon>
                 </button>
               </div>
               <div className="section" style={{ backgroundColor: "black" }}>
                 <About />
-                <button onClick={() => fullpageApi.moveSectionUp()}>
+                <button
+                  className="hover:text-green-500 transition-colors"
+                  onClick={() => fullpageApi.moveSectionUp()}
+                >
                   <ArrowCircleUpIcon> </ArrowCircleUpIcon>
                 </button>
-                <button onClick={() => fullpageApi.moveSectionDown()}>
+                <button
+                  className="hover:text-green-500 transition-colors"
+                  onClick={() => fullpageApi.moveSectionDown()}
+                >
                   <ArrowCircleDownIcon> </ArrowCircleDownIcon>
                 </button>
               </div>
               <div className="section" style={{ backgroundColor: "black" }}>
                 <Projects />
-                <button onClick={() => fullpageApi.moveSectionUp()}>
+                <button
+                  className="hover:text-green-500 transition-colors"
+                  onClick={() => fullpageApi.moveSectionUp()}
+                >
                   <ArrowCircleUpIcon> </ArrowCircleUpIcon>
                 </button>
-                <button onClick={() => fullpageApi.moveSectionDown()}>
+                <button
+                  className="hover:text-green-500 transition-colors"
+                  onClick={() => fullpageApi.moveSectionDown()}
+                >
                   <ArrowCircleDownIcon> </ArrowCircleDownIcon>
                 </button>
               </div>
               <div className="section" style={{ backgroundColor: "black" }}>
-                <Skills />
-                <button onClick={() => fullpageApi.moveSectionUp()}>
+                <Skills class="m-1" />
+                <button
+                  className="hover:text-green-500 transition-colors"
+                  onClick={() => fullpageApi.moveSectionUp()}
+                >
                   <ArrowCircleUpIcon> </ArrowCircleUpIcon>
                 </button>
-                <button onClick={() => fullpageApi.moveSectionDown()}>
+                <button
+                  className="hover:text-green-500 transition-colors"
+                  onClick={() => fullpageApi.moveSectionDown()}
+                >
                   <ArrowCircleDownIcon> </ArrowCircleDownIcon>
                 </button>
               </div>
-              <div className="section" style={{ backgroundColor: "green" }}>
+              <div className="section" style={{ backgroundColor: "black" }}>
                 <Contact />
-                <button onClick={() => fullpageApi.moveSectionUp()}>
+                <button
+                  className="hover:text-green-500 transition-colors"
+                  onClick={() => fullpageApi.moveSectionUp()}
+                >
                   <ArrowCircleUpIcon> </ArrowCircleUpIcon>
                 </button>
               </div>

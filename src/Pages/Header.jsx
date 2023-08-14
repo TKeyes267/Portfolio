@@ -12,11 +12,11 @@ import ArrowCircleUpIcon from "@mui/icons-material/ArrowCircleUp";
 
 function NavList() {
   return (
-    <ul className="my-2 flex flex-col gap-2 lg:mb-0 lg:mt-0 lg:flex-row lg:items-center lg:gap-6">
+    <ul className="my-2 flex flex-col gap-2 lg:mb-0 lg:mt-0 lg:flex-row lg:items-center lg:gap-6 ">
       <Typography
         as="li"
         variant="small"
-        color="yellow"
+        color="white"
         className="p-1 font-medium"
       >
         <a
@@ -86,7 +86,7 @@ const Header = () => {
   return (
     <Navbar
       style={{ backgroundColor: "black" }}
-      className="mx-auto max-w-screen-xl px-6 py-3"
+      className="mx-auto max-w-screen-xl px-6 py-3 border-none h-12 "
     >
       <div className="flex items-center justify-between">
         <Typography
