@@ -86,15 +86,10 @@ const Header = () => {
   return (
     <Navbar
       style={{ backgroundColor: "black" }}
-      className="mx-auto max-w-screen-xl px-6 py-3 border-none h-12 "
+      className="max-w-screen border-none "
     >
       <div className="flex items-center justify-between">
-        <Typography
-          as="a"
-          href="#"
-          variant="h6"
-          className="mr-4 cursor-pointer py-1.5"
-        >
+        <Typography as="a" href="#" variant="h6" className=" cursor-pointer ">
           Tom Keyes - Software Developer
         </Typography>
         <div className="hidden lg:block">
@@ -102,7 +97,7 @@ const Header = () => {
         </div>
         <IconButton
           variant="text"
-          className="ml-auto h-6 w-6 text-inherit hover:bg-transparent focus:bg-transparent active:bg-transparent lg:hidden"
+          className="text-inherit hover:bg-transparent focus:bg-transparent active:bg-transparent lg:hidden"
           ripple={false}
           onClick={() => setOpenNav(!openNav)}
         >

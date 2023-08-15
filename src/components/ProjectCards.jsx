@@ -73,11 +73,10 @@ const ProjectCards = () => {
         </IconButton>
       )}
     >
-      <h2>Tom's Projects</h2>
       {projects.map((project) => {
         return (
           <div key={project.projectID}>
-            <Card className="w-full max-w-[48rem] flex-row">
+            <Card className="w-full h-fit max-w-[48rem] content-center">
               <CardHeader
                 floated={false}
                 shadow={false}
