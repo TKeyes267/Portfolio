@@ -1,7 +1,9 @@
+import { Typography } from "@material-tailwind/react";
+
 const About = () => {
   return (
     <main>
-      <h2 className="Header">About Tom</h2>
+      <Typography className="w-full text-7xl">About Tom</Typography>
     </main>
   );
 };

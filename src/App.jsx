@@ -14,89 +14,99 @@ import ArrowCircleUpIcon from "@mui/icons-material/ArrowCircleUp";
 
 function App() {
   return (
-    <div>
-      <ReactFullpage
-        //fullpage options
-        // licenseKey={"YOUR_KEY_HERE"}
-        scrollingSpeed={1000} /* Options here */
-        render={({ state, fullpageApi }) => {
-          return (
-            <ReactFullpage.Wrapper>
-              <div
-                className="section"
-                style={{
-                  height: "100%",
-                  backgroundColor: "black",
-                }}
-              >
-                {/* <Header /> */}
-                <Landing />
-                <button
-                  className="hover:text-green-500 transition-colors"
-                  onClick={() => fullpageApi.moveSectionDown()}
-                >
-                  <ArrowCircleDownIcon> </ArrowCircleDownIcon>
-                </button>
-              </div>
-              <div className="section" style={{ backgroundColor: "black" }}>
-                <About />
-                <button
-                  className="hover:text-green-500 transition-colors"
-                  onClick={() => fullpageApi.moveSectionUp()}
-                >
-                  <ArrowCircleUpIcon> </ArrowCircleUpIcon>
-                </button>
-                <button
-                  className="hover:text-green-500 transition-colors"
-                  onClick={() => fullpageApi.moveSectionDown()}
-                >
-                  <ArrowCircleDownIcon> </ArrowCircleDownIcon>
-                </button>
-              </div>
-              <div className="section" style={{ backgroundColor: "black" }}>
-                <Projects />
-                <button
-                  className="hover:text-green-500 transition-colors"
-                  onClick={() => fullpageApi.moveSectionUp()}
-                >
-                  <ArrowCircleUpIcon> </ArrowCircleUpIcon>
-                </button>
-                <button
-                  className="hover:text-green-500 transition-colors"
-                  onClick={() => fullpageApi.moveSectionDown()}
-                >
-                  <ArrowCircleDownIcon> </ArrowCircleDownIcon>
-                </button>
-              </div>
-              <div className="section" style={{ backgroundColor: "black" }}>
-                <Skills class="m-1" />
-                <button
-                  className="hover:text-green-500 transition-colors"
-                  onClick={() => fullpageApi.moveSectionUp()}
-                >
-                  <ArrowCircleUpIcon> </ArrowCircleUpIcon>
-                </button>
-                <button
-                  className="hover:text-green-500 transition-colors"
-                  onClick={() => fullpageApi.moveSectionDown()}
-                >
-                  <ArrowCircleDownIcon> </ArrowCircleDownIcon>
-                </button>
-              </div>
-              <div className="section" style={{ backgroundColor: "black" }}>
-                <Contact />
-                <button
-                  className="hover:text-green-500 transition-colors"
-                  onClick={() => fullpageApi.moveSectionUp()}
-                >
-                  <ArrowCircleUpIcon> </ArrowCircleUpIcon>
-                </button>
-              </div>
-            </ReactFullpage.Wrapper>
-          );
+    <main class="max-h-screen overflow-y-scroll snap snap-y snap-mandatory">
+      <div
+        className="w-full h-screen p-4 snap-start overscroll-y-auto"
+        style={{
+          backgroundColor: "orange",
         }}
-      />
-    </div>
+      >
+        <Header className="w-full px-4 fixed top-0" />
+        <Landing />
+        <div>
+          <button
+            className="hover:text-green-500 transition-colors"
+            onClick={() => fullpageApi.moveSectionDown()}
+          >
+            <ArrowCircleDownIcon> </ArrowCircleDownIcon>
+          </button>
+        </div>
+      </div>
+      <div
+        className="w-full h-screen p-4 snap-start overscroll-y-auto"
+        style={{ backgroundColor: "purple" }}
+      >
+        <About />
+        <div>
+          <button
+            className="hover:text-green-500 transition-colors"
+            onClick={() => fullpageApi.moveSectionUp()}
+          >
+            <ArrowCircleUpIcon> </ArrowCircleUpIcon>
+          </button>
+          <button
+            className="hover:text-green-500 transition-colors"
+            onClick={() => fullpageApi.moveSectionDown()}
+          >
+            <ArrowCircleDownIcon> </ArrowCircleDownIcon>
+          </button>
+        </div>
+      </div>
+      <div
+        className="w-full h-screen p-4 snap-start overscroll-y-auto"
+        style={{ backgroundColor: "blue" }}
+      >
+        <Projects />
+        <div>
+          <button
+            className="hover:text-green-500 transition-colors"
+            onClick={() => fullpageApi.moveSectionUp()}
+          >
+            <ArrowCircleUpIcon> </ArrowCircleUpIcon>
+          </button>
+          <button
+            className="hover:text-green-500 transition-colors"
+            onClick={() => fullpageApi.moveSectionDown()}
+          >
+            <ArrowCircleDownIcon> </ArrowCircleDownIcon>
+          </button>
+        </div>
+      </div>
+      <div
+        className="w-full h-screen p-4 snap-start overscroll-y-auto"
+        style={{ backgroundColor: "green" }}
+      >
+        <Skills class="m-1" />
+        <div>
+          <button
+            className="hover:text-green-500 transition-colors"
+            onClick={() => fullpageApi.moveSectionUp()}
+          >
+            <ArrowCircleUpIcon> </ArrowCircleUpIcon>
+          </button>
+          <button
+            className="hover:text-green-500 transition-colors"
+            onClick={() => fullpageApi.moveSectionDown()}
+          >
+            <ArrowCircleDownIcon> </ArrowCircleDownIcon>
+          </button>
+        </div>
+      </div>
+      <div
+        className="w-full h-screen p-4 snap-start overscroll-y-auto"
+        style={{ backgroundColor: "yellow" }}
+      >
+        <Contact />
+        <div>
+          <button
+            className="hover:text-green-500 transition-colors"
+            onClick={() => fullpageApi.moveSectionUp()}
+          >
+            <ArrowCircleUpIcon> </ArrowCircleUpIcon>
+          </button>
+        </div>
+      </div>
+    </main>
   );
 }
 
