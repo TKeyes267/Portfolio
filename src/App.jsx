@@ -14,27 +14,25 @@ import ArrowCircleUpIcon from "@mui/icons-material/ArrowCircleUp";
 
 function App() {
   return (
-    <main class="max-h-screen overflow-y-scroll snap snap-y snap-mandatory">
-      <Header className="w-full px-8 fixed top-0" />
+    <main class="max-h-screen max-w-screen overflow-y-scroll snap snap-y snap-mandatory">
+      <Header className="w-full px-4 fixed top-0" />
       <div
-        className="w-full h-screen p-8 snap-start overscroll-y-auto"
-        style={{
-          backgroundColor: "orange",
-        }}
+        id="homePage"
+        className="w-full h-screen snap-start overscroll-y-auto pt-16 bg-forest"
       >
-        <Landing />
-        {/* <div>
+        <Landing className="p-8" />
+        <div>
           <button
-            className="hover:text-green-500 transition-colors"
+            className="hover:text-moss transition-colors"
             onClick={() => fullpageApi.moveSectionDown()}
           >
             <ArrowCircleDownIcon> </ArrowCircleDownIcon>
           </button>
-        </div> */}
+        </div>
       </div>
       <div
-        className="w-full h-screen p-8 snap-start overscroll-y-auto"
-        style={{ backgroundColor: "purple" }}
+        id="aboutPage"
+        className="w-full h-screen p-8 snap-start overscroll-y-auto pt-16  bg-forest"
       >
         <About />
         {/* <div>
@@ -53,8 +51,8 @@ function App() {
         </div> */}
       </div>
       <div
-        className="w-full h-screen p-8 snap-start overscroll-y-auto"
-        style={{ backgroundColor: "blue" }}
+        id="projectPage"
+        className="w-full h-screen p-8 snap-start overscroll-y-auto pt-16  bg-forest"
       >
         <Projects />
         {/* <div>
@@ -73,8 +71,8 @@ function App() {
         </div> */}
       </div>
       <div
-        className="w-full h-screen p-8 snap-start overscroll-y-auto"
-        style={{ backgroundColor: "green" }}
+        id="skillsPage"
+        className="w-full h-screen p-8 snap-start overscroll-y-auto pt-16  bg-forest"
       >
         <Skills class="m-1" />
         {/* <div>
@@ -93,8 +91,8 @@ function App() {
         </div> */}
       </div>
       <div
-        className="w-full h-screen p-8 snap-start overscroll-y-auto"
-        style={{ backgroundColor: "black" }}
+        id="contactPage"
+        className="w-full h-screen p-8 snap-start overscroll-y-auto pt-16  bg-forest"
       >
         <Contact />
         {/* <div>

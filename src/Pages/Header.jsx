@@ -7,8 +7,8 @@ import {
 
 import { useState, useEffect } from "react";
 
-import ArrowCircleDownIcon from "@mui/icons-material/ArrowCircleDown";
-import ArrowCircleUpIcon from "@mui/icons-material/ArrowCircleUp";
+import MenuSharpIcon from "@mui/icons-material/MenuSharp";
+import MenuOpenSharpIcon from "@mui/icons-material/MenuOpenSharp";
 
 function NavList() {
   return (
@@ -16,12 +16,11 @@ function NavList() {
       <Typography
         as="li"
         variant="small"
-        color="white"
-        className="p-1 font-medium"
+        className="p-1 font-medium text-silver"
       >
         <a
-          href="#"
-          className="flex items-center hover:text-green-500 transition-colors"
+          href="#aboutPage"
+          className="flex items-center hover:text-moss transition-colors"
         >
           About
         </a>
@@ -33,8 +32,8 @@ function NavList() {
         className="p-1 font-medium"
       >
         <a
-          href="#"
-          className="flex items-center hover:text-green-500 transition-colors"
+          href="#projectPage"
+          className="flex items-center hover:text-moss transition-colors"
         >
           Projects
         </a>
@@ -46,8 +45,8 @@ function NavList() {
         className="p-1 font-medium"
       >
         <a
-          href="#"
-          className="flex items-center hover:text-green-500 transition-colors"
+          href="#skillsPage"
+          className="flex items-center hover:text-moss transition-colors"
         >
           Skills
         </a>
@@ -59,8 +58,8 @@ function NavList() {
         className="p-1 font-medium"
       >
         <a
-          href="#"
-          className="flex items-center hover:text-green-500 transition-colors"
+          href="#contactPage"
+          className="flex items-center hover:text-moss transition-colors"
         >
           Contact
         </a>
@@ -86,10 +85,15 @@ const Header = () => {
   return (
     <Navbar
       style={{ backgroundColor: "black" }}
-      className="max-w-screen border-none "
+      className="fixed w-full border-none rounded-none max-w-none z-50 text-silver"
     >
       <div className="flex items-center justify-between">
-        <Typography as="a" href="#" variant="h6" className=" cursor-pointer ">
+        <Typography
+          as="a"
+          href="#homePage"
+          variant="h6"
+          className=" cursor-pointer "
+        >
           Tom Keyes - Software Developer
         </Typography>
         <div className="hidden lg:block">
@@ -102,9 +106,9 @@ const Header = () => {
           onClick={() => setOpenNav(!openNav)}
         >
           {openNav ? (
-            <ArrowCircleUpIcon className="h-6 w-6" strokeWidth={2} />
+            <MenuOpenSharpIcon className="h-6 w-6" strokeWidth={2} />
           ) : (
-            <ArrowCircleDownIcon className="h-6 w-6" strokeWidth={2} />
+            <MenuSharpIcon className="h-6 w-6" strokeWidth={2} />
           )}
         </IconButton>
       </div>

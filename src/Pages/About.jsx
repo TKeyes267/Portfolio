@@ -11,7 +11,7 @@ import {
 const About = () => {
   return (
     <main>
-      <Typography className="w-full text-8xl mb-24" color="white">
+      <Typography className="w-full text-8xl mb-20 pt-8" color="white">
         About Tom
       </Typography>
       <div className="w-1/2">
@@ -84,6 +84,15 @@ const About = () => {
         </Timeline>
       </div>
     </main>
+    // <div className="pt-8 ">
+    //   {/* <Header className="w-full mx-auto px-4 fixed top-0" /> */}
+    //   <Typography className="w-full text-9xl pl-8 text-silver font-light mb-12">
+    //     Tom Keyes
+    //   </Typography>
+    //   <Typography className="w-full text-3xl pl-8 text-silver font-light">
+    //     Front-end Software Developer
+    //   </Typography>
+    // </div>
   );
 };
 
