@@ -6,15 +6,15 @@ import {
   Textarea,
 } from "@material-tailwind/react";
 
-import LinkedInIcon from "@mui/icons-material/LinkedIn";
+import MailOutlineSharpIcon from "@mui/icons-material/MailOutlineSharp";
 
 const Contact = () => {
   return (
-    <main>
-      <Typography className="w-full text-8xl mb-24" color="white">
+    <main className="pt-8">
+      <Typography className="w-full text-8xl mb-20 text-silver">
         Contact Me
       </Typography>
-      <div className=" justify-centre content-center justify-items-center items-center mt-8">
+      <div className="justify-centre content-center justify-items-center items-center mt-8 gap-12 pb-12">
         {/* <Card
           color="transparent"
           shadow={false}
@@ -50,29 +50,38 @@ const Contact = () => {
             </Button>
           </form>
         </Card> */}
-        <Card color="white" shadow={false} className="mt-6 w-4/5 m-auto p-8">
-          <div className="mt-6" fullWidth>
-            <a target="_blank" href="https://github.com/TKeyes267">
-              Github
-            </a>
-          </div>
+        <Card shadow={false} className="mt-6 w-4/5  p-8 rounded-none bg-silver">
           <div>
             <a
               target="_blank"
               href="https://www.linkedin.com/in/tom-keyes-5abb3815a/"
             >
-              <LinkedInIcon color="black"></LinkedInIcon>
-            </a>
-          </div>
-          <div>
-            <a target="_blank" href="https://tomkeyes26@gmail.com">
-              tomkeyes26@gmail.com
+              <i class="devicon-linkedin-plain "></i>
             </a>
           </div>
 
-          <Button className="mt-6" fullWidth>
+          {/* <Button className="mt-6 rounded-none bg-orange-500" fullWidth>
             Submit
-          </Button>
+          </Button> */}
+        </Card>
+        <Card shadow={false} className="mt-6 w-4/5  p-8 rounded-none bg-silver">
+          <div className="mt-6" fullWidth>
+            <a target="_blank" href="https://github.com/TKeyes267">
+              <i class="devicon-github-original"></i>
+            </a>
+          </div>
+        </Card>
+        <Card shadow={false} className="mt-6 w-4/5  p-8 rounded-none bg-silver">
+          <div>
+            <a
+              target="_blank"
+              href="https://tomkeyes26@gmail.com"
+              className="gap-20"
+            >
+              <MailOutlineSharpIcon> </MailOutlineSharpIcon>
+              tomkeyes26@gmail.com
+            </a>
+          </div>
         </Card>
       </div>
     </main>
