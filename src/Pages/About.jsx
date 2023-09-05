@@ -11,78 +11,37 @@ import {
 const About = () => {
   return (
     <main>
-      <Typography className="w-full text-8xl mb-20 pt-8" color="white">
-        About Tom
-      </Typography>
-      <div className="w-1/2">
-        <Timeline>
-          <TimelineItem>
-            <TimelineConnector />
-            <TimelineHeader className="h-3">
-              <TimelineIcon color="white" />
-              <Typography variant="h6" color="white" className="leading-none">
-                Timeline Title Here.
+      <div className=" bg-teal grid grid-cols-2 w-screen"></div>
+      <main className="w-screen h-screen bg-silver grid grid-cols-2">
+        <div className=" flex flex-col h-full justify-center">
+          {/* <img
+            src="https://keyassets.timeincuk.net/inspirewp/live/wp-content/uploads/sites/8/2020/10/GettyImages-1207942316_410263602_683431482_0001.jpg"
+            alt="image 1"
+            className=" h-full w-full object-cover aspect-square"
+          /> */}
+          <img
+            src="src/assets/images/practiceImage.png"
+            alt="image 1"
+            className=" h-full w-full object-cover aspect-square"
+          />
+        </div>
+        <div className="bg-moss ">
+          <div className="block ml-auto mr-auto px-20 py-20 text-teal">
+            <Typography className="text-7xl mb-20 font-tit">About</Typography>
+            <div className="">
+              <Typography className="text-3xl font-tit">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+                enim ad minim veniam, quis nostrud exercitation ullamco laboris
+                nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor
+                in reprehenderit in voluptate velit esse cillum dolore eu fugiat
+                nulla pariatur. Excepteur sint occaecat cupidatat non proident,
+                sunt in culpa qui officia deserunt mollit anim id est laborum.
               </Typography>
-            </TimelineHeader>
-            <TimelineBody className="pb-8">
-              <Typography
-                variant="small"
-                color="white"
-                className="font-normal text-white"
-              >
-                The key to more success is to have a lot of pillows. Put it this
-                way, it took me twenty five years to get these plants, twenty
-                five years of blood sweat and tears, and I&apos;m never giving
-                up, I&apos;m just getting started. I&apos;m up to something. Fan
-                luv.
-              </Typography>
-            </TimelineBody>
-          </TimelineItem>
-          <TimelineItem>
-            <TimelineConnector />
-            <TimelineHeader className="h-3">
-              <TimelineIcon color="white" />
-              <Typography variant="h6" color="white" className="leading-none">
-                Timeline Title Here.
-              </Typography>
-            </TimelineHeader>
-            <TimelineBody className="pb-8">
-              <Typography
-                variant="small"
-                color="white"
-                className="font-normal text-white"
-              >
-                The key to more success is to have a lot of pillows. Put it this
-                way, it took me twenty five years to get these plants, twenty
-                five years of blood sweat and tears, and I&apos;m never giving
-                up, I&apos;m just getting started. I&apos;m up to something. Fan
-                luv.
-              </Typography>
-            </TimelineBody>
-          </TimelineItem>
-          <TimelineItem>
-            <TimelineHeader className="h-3">
-              <TimelineIcon color="white" />
-              <Typography variant="h6" color="white" className="leading-none">
-                Timeline Title Here.
-              </Typography>
-            </TimelineHeader>
-            <TimelineBody>
-              <Typography
-                variant="small"
-                color="gary"
-                className="font-normal text-white"
-              >
-                The key to more success is to have a lot of pillows. Put it this
-                way, it took me twenty five years to get these plants, twenty
-                five years of blood sweat and tears, and I&apos;m never giving
-                up, I&apos;m just getting started. I&apos;m up to something. Fan
-                luv.
-              </Typography>
-            </TimelineBody>
-          </TimelineItem>
-        </Timeline>
-      </div>
+            </div>
+          </div>
+        </div>
+      </main>
     </main>
     // <div className="pt-8 ">
     //   {/* <Header className="w-full mx-auto px-4 fixed top-0" /> */}
