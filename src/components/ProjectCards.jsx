@@ -24,18 +24,18 @@ const ProjectCards = () => {
   });
 
   return (
-    <div className=" overflow-x-hidden">
+    <div className="flex justify-center overflow-x-hidden">
       <Carousel
         transition={{ duration: 0.75 }}
         className="h-auto overflow-y-visible"
         loop="true"
         navigation={({ setActiveIndex, activeIndex, length }) => (
-          <div className="absolute bottom-4 left-2/4 z-50 flex -translate-x-2/4 gap-2">
+          <div className="absolute bottom-1 mt-20 left-2/4 z-50 flex -translate-x-2/4 gap-2">
             {new Array(length).fill("").map((_, i) => (
               <span
                 key={i}
-                className={`block h-1 cursor-pointer rounded-none transition-all content-[''] ${
-                  activeIndex === i ? "w-12 bg-moss" : "w-4 bg-forest"
+                className={`block h-2 cursor-pointer rounded-none transition-all content-[''] ${
+                  activeIndex === i ? "w-12 bg-moss" : "w-4 bg-teal"
                 }`}
                 onClick={() => setActiveIndex(i)}
               />
@@ -46,9 +46,10 @@ const ProjectCards = () => {
           return (
             <IconButton
               variant="text"
+              ripple="false"
               size="xl"
               onClick={handlePrev}
-              className="!absolute top-2/4 left-4 -translate-y-2/4 rounded-none text-moss hover:bg-moss hover:text-white"
+              className="!absolute top-2/4 left-5 -translate-y-2/4 rounded-none text-moss hover:bg-moss hover:text-teal"
             >
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -70,10 +71,10 @@ const ProjectCards = () => {
         nextArrow={({ handleNext }) => (
           <IconButton
             variant="text"
-            color="orange"
-            size="lg"
+            ripple="false"
+            size="xl"
             onClick={handleNext}
-            className="!absolute top-2/4 !right-4 -translate-y-2/4 rounded-none text-moss hover:bg-moss hover:text-white"
+            className="!absolute top-2/4 !right-5 -translate-y-2/4 rounded-none text-moss hover:bg-moss hover:text-teal"
           >
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -94,16 +95,7 @@ const ProjectCards = () => {
       >
         {projects.map((project) => {
           return (
-            <Card className=" bg-forest rounded-none pl-28 pr-28 mt-12 shadow-none text-moss">
-              {/* <CardHeader className="bg-white rounded-none w-full ml-0 p-6 flex content-center">
-                <Typography
-                  color="blue"
-                  variant="h3"
-                  className=" bg-blue text-orange-500 font-normal text-4xl"
-                >
-                  {project.projectTitle}
-                </Typography>
-              </CardHeader> */}
+            <Card className="text-moss bg-teal w-5/6 rounded-none pl-20 pr-20 shadow-none ">
               <div className="flex flex-row justify-center content-center bg-silver">
                 <CardBody
                   floated={false}
@@ -112,38 +104,37 @@ const ProjectCards = () => {
                   className="w-2/6 h-fit m-0 shrink-0 rounded-none pr-0"
                 >
                   <img
-                    src="src/components/IMG_7931.JPG"
+                    src="src/assets/images/practiceImage2.png"
                     alt="image 1"
-                    // className=" h-full w-full object-cover bg-orange aspect-square"
+                    className="object-cover aspect-square"
                   />
                 </CardBody>
-                <CardBody className="2/3">
-                  <CardHeader className="bg-silver shadow-none rounded-none w-full ml-0 pb-6 pt-6 flex content-center">
+                <CardBody>
+                  <CardHeader className="bg-silver shadow-none rounded-none ml-0 pb-8 pt-8 flex content-center">
                     <Typography
                       color="blue"
-                      variant="h3"
-                      className=" bg-blue text-forest font-normal text-4xl"
+                      className=" bg-blue text-teal font-normal text-5xl font-tit"
                     >
                       {project.projectTitle}
                     </Typography>
                   </CardHeader>
                   <Typography
                     variant="lead"
-                    className=" text-forest mb-2 font-normal leading-[1.8]"
+                    className=" text-teal mb-2 font-normal leading-[1.8] font-tit"
                   >
                     {project.projectDescription}
                   </Typography>
-                  <div className="flex flex-row content-center gap-4 text-silver hover:text-moss">
+                  <div className="flex flex-row content-center gap-4 text-teal ">
                     <Link
                       to={`${project.projectGitHubLink}`}
-                      className="inline-block"
+                      className="inline-block "
                     >
                       <svg
                         stroke="currentColor"
                         fill="currentColor"
                         stroke-width="0"
                         viewBox="0 0 1024 1024"
-                        class="w-5 h-5 md:w-6 md:h-6 hover:text-moss"
+                        class="w-5 h-5 md:w-6 md:h-6 hover:text-moss hover:bg-teal"
                         height="1em"
                         width="1em"
                         xmlns="http://www.w3.org/2000/svg"
@@ -155,7 +146,7 @@ const ProjectCards = () => {
                       to={`${project.projectLink}`}
                       className="inline-block"
                     >
-                      <LaunchSharpIcon className="hover:text-orange"></LaunchSharpIcon>
+                      <LaunchSharpIcon className="hover:text-moss hover:bg-teal"></LaunchSharpIcon>
                     </Link>
                   </div>
                 </CardBody>

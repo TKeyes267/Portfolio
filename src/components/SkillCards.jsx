@@ -16,17 +16,17 @@ const SkillCards = () => {
   });
 
   return (
-    <div className="grid grid-cols-6 gap-y-12 justify-items-center place-content-around text-silver ">
+    <div className="grid grid-cols-6 gap-16 justify-items-center place-content-around text-teal ">
       {skills.map((skill) => {
         return (
           <Card
             key={skill.skillID}
-            className=" h-40 w-40 rounded-none flex justify-center items-center bg-black"
+            className="w-30 rounded-none shadow-none  flex justify-center items-center bg-silver"
           >
             <CardBody className="p-0  rounded-none">
               <i class={skill.skillLogo}></i>
             </CardBody>
-            <Typography className="pt-6 text-2xl text-silver">
+            <Typography className="pt-8 text-2xl text-forest font-tit">
               {skill.skillName}
             </Typography>
           </Card>
