@@ -3,8 +3,8 @@ import { Carousel, Typography } from "@material-tailwind/react";
 
 const Projects = () => {
   return (
-    <main className="h-[100dvh] w-[100dvw] py-5 md:py-10 bg-teal flex flex-col">
-      <Typography className="text-5xl md:text-8xl mb-5 md:mb-10 ml-5 md:ml-10 text-moss font-tit flex justify-start">
+    <main className="h-[100dvh] w-[100dvw] bg-teal flex flex-col">
+      <Typography className="text-6xl md:text-8xl px-5 md:px-10 pt-5 md:pt-20 pb-10 md:pb-20  text-moss font-tit flex justify-start tracking-wide">
         Projects
       </Typography>
       <div className="flex items-center h-full">

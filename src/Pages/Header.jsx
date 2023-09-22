@@ -9,16 +9,16 @@ import LocationCitySharpIcon from "@mui/icons-material/LocationCitySharp";
 
 function NavList() {
   return (
-    <div className="h-screen w-screen flex">
+    <div className="w-[100dvw] h-[100dvh] flex">
       <div className="grid grid-cols-2 h-fit w-full m-12 self-center">
-        <ul className=" h-full flex flex-col flex-wrap origin-center gap-16 pl-40 ">
+        <ul className=" h-full flex flex-col flex-wrap origin-center gap-16 md:pl-40 ">
           <Typography
             as="li"
             variant="small"
-            className="h-fit font-light text-teal transition ease-in-out hover:-translate-x-20 text-8xl content-center font-tit"
+            className="h-fit font-light text-teal transition ease-in-out hover:-translate-x-20 text-6xl md:text-8xl content-center font-tit tracking-wide"
           >
             <a
-              href="#aboutPage"
+              href="/#aboutPage"
               className="flex items-center transition-colors"
             >
               About
@@ -28,23 +28,10 @@ function NavList() {
             as="li"
             variant="small"
             color="white"
-            className="h-fit font-light text-teal transition ease-in-out hover:-translate-x-20 text-8xl content-center font-tit"
+            className="h-fit font-light text-teal transition ease-in-out hover:-translate-x-20 text-6xl md:text-8xl content-centerm font-tit tracking-wide"
           >
             <a
-              href="#skillsPage"
-              className="flex items-center transition-colors"
-            >
-              Skills
-            </a>
-          </Typography>
-          <Typography
-            as="li"
-            variant="small"
-            color="white"
-            className="h-fit font-light text-teal transition ease-in-out hover:-translate-x-20 text-8xl content-centerm font-tit"
-          >
-            <a
-              href="#projectPage"
+              href="/#projectPage"
               className="flex items-center transition-colors"
             >
               Projects
@@ -54,21 +41,34 @@ function NavList() {
             as="li"
             variant="small"
             color="white"
-            className="h-fit font-light text-teal transition ease-in-out hover:-translate-x-20 text-8xl content-center font-tit"
+            className="h-fit font-light text-teal transition ease-in-out hover:-translate-x-20 text-6xl md:text-8xl content-center font-tit tracking-wide"
           >
             <a
-              href="#contactPage"
+              href="/#skillsPage"
+              className="flex items-center transition-colors"
+            >
+              Skills
+            </a>
+          </Typography>
+          <Typography
+            as="li"
+            variant="small"
+            color="white"
+            className="h-fit font-light text-teal transition ease-in-out hover:-translate-x-20 text-6xl md:text-8xl content-center font-tit tracking-wide"
+          >
+            <a
+              href="/#contactPage"
               className="flex items-center transition-colors"
             >
               Contact
             </a>
           </Typography>
         </ul>
-        <ul className="text-forest h-80 pl-40 flex flex-col justify-center self-center ml-12 gap-12 ">
+        <ul className="text-forest h-80 pl-40 md:flex flex-col justify-center self-center ml-12 gap-12 hidden  ">
           <Typography
             as="li"
             color="white"
-            className=" font-light text-teal text-xl font-tit"
+            className=" font-light text-teal text-xl font-tit tracking-wide"
           >
             <a
               target="_blank"
@@ -82,7 +82,7 @@ function NavList() {
           <Typography
             as="li"
             color="white"
-            className=" font-light text-teal text-xl font-tit"
+            className=" font-light text-teal text-xl font-tit tracking-wide"
           >
             <a
               target="_blank"
@@ -96,7 +96,7 @@ function NavList() {
           <Typography
             as="li"
             color="white"
-            className=" font-light text-teal text-xl font-tit"
+            className=" font-light text-teal text-xl font-tit tracking-wide"
           >
             <a
               target="_blank"
@@ -110,7 +110,7 @@ function NavList() {
           <Typography
             as="li"
             color="white"
-            className="gap-12 flex flex-row items-center font-light text-teal text-xl font-tit"
+            className="gap-12 flex flex-row items-center font-light text-teal text-xl font-tit tracking-wide"
           >
             <LocationCitySharpIcon fontSize="medium" />
             Manchester, UK
@@ -121,30 +121,11 @@ function NavList() {
   );
 }
 
-const Header = ({ openNav, setOpenNav }) => {
-  // const [openNav, setOpenNav] = useState(false);
-
-  // const handleWindowResize = () =>
-  //   window.innerWidth >= 960 && setOpenNav(false);
-
-  //   useEffect(() => {
-  //     window.addEventListener("resize", handleWindowResize);
-
-  //     return () => {
-  //       window.removeEventListener("resize", handleWindowResize);
-  //     };
-  //   }, []);
-
+const Header = () => {
+  const [openNav, setOpenNav] = useState(false);
   return (
     <main>
-      <div className=" bg-inherit border-none z-50  flex flex-row justify-end	">
-        {/* <Button
-          variant="text"
-          className=" bg-moss hover:bg-moss active:bg-moss py-0 px-0 rounded-none transition-all normal-case"
-          ripple={false}
-          onClick={() => setOpenNav(!openNav)}
-          uppercase={false}
-        > */}
+      <div className="bg-inherit border-none z-50  flex flex-row justify-end lg:hidden">
         {openNav ? (
           <Button
             variant="text"
@@ -155,7 +136,7 @@ const Header = ({ openNav, setOpenNav }) => {
           >
             <div className="h-screen w-screen flex flex-row-reverse justify-end ">
               <MenuOpenSharpIcon
-                className="m-20 w-12 h-12 text-teal bg-moss"
+                className="m-5 md:m-10 w-12 h-12 text-teal bg-moss"
                 strokeWidth={4}
                 viewBox="0 0 24 24"
                 fontSize="large"
@@ -166,24 +147,76 @@ const Header = ({ openNav, setOpenNav }) => {
         ) : (
           <Button
             variant="text"
-            className=" bg-teal hover:bg-teal active:bg-teal py-0 px-0 rounded-none transition-all normal-case"
+            className=" bg-transparent py-0 px-0 rounded-none transition-all normal-case"
             ripple={false}
             onClick={() => setOpenNav(!openNav)}
             uppercase={false}
           >
             <MenuSharpIcon
-              className="m-20 w-12 h-12 text-moss bg-teal"
+              className="m-5 md:m-10 w-12 h-12 text-moss bg-transparent"
               strokeWidth={4}
               viewBox="0 0 24 24"
               fontSize="large"
             />
           </Button>
         )}
-
-        {/* 
-        // <Collapse open={openNav} className="bg-moss">
-        //   <NavList />
-        // </Collapse> */}
+      </div>
+      <div className="fixed z-50">
+        <div className="bg-teal pr-10 h-[5dvh] w-screen lg:flex flex-row justify-end hidden ">
+          <ul className=" h-full flex flex-row flex-wrap origin-center items-center gap-16 md:pl-40">
+            <Typography
+              as="li"
+              variant="small"
+              className="h-fit font-light text-moss md:text-2xl content-center font-tit tracking-wide hover:underline "
+            >
+              <a
+                href="/#aboutPage"
+                className="flex items-center transition-colors"
+              >
+                About
+              </a>
+            </Typography>
+            <Typography
+              as="li"
+              variant="small"
+              color="white"
+              className="h-fit font-light text-moss md:text-2xl content-centerm font-tit tracking-wide hover:underline"
+            >
+              <a
+                href="/#projectPage"
+                className="flex items-center transition-colors"
+              >
+                Projects
+              </a>
+            </Typography>
+            <Typography
+              as="li"
+              variant="small"
+              color="white"
+              className="h-fit font-light text-moss md:text-2xl content-center font-tit tracking-wide hover:underline"
+            >
+              <a
+                href="/#skillsPage"
+                className="flex items-center transition-colors"
+              >
+                Skills
+              </a>
+            </Typography>
+            <Typography
+              as="li"
+              variant="small"
+              color="white"
+              className="h-fit font-light text-moss md:text-2xl content-center font-tit tracking-wide hover:underline"
+            >
+              <a
+                href="/#contactPage"
+                className="flex items-center transition-colors"
+              >
+                Contact
+              </a>
+            </Typography>
+          </ul>
+        </div>
       </div>
     </main>
   );

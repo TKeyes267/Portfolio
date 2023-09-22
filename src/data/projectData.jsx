@@ -2,10 +2,11 @@ export const projectData = [
   {
     projectID: 0,
     projectTitle: "UK Air Pollution Checker",
+    projectURL: "Air_Pollution_Checker",
     projectSummary:
-      "The UK Air Pollution Checker is a web application designed to empower users by providing real-time information about air quality in their vicinity.",
+      "UK Air Pollution Checker is a web application designed to empower users by providing real-time information about air quality in their vicinity.",
     projectDescription:
-      "The UK Air Pollution Checker is a web application designed to empower users by providing real-time information about air quality in their vicinity. Whether you're concerned about personal health or the environment, this app offers a straightforward and informative solution.",
+      "UK Air Pollution Checker is a web application designed to empower users by providing real-time information about air quality in their vicinity. Whether you're concerned about personal health or the environment, this app offers a straightforward and informative solution.",
     projectFeatureTitle1: "Location-based AQI: ",
     projectFeature1:
       "The app offers users the ability to check air pollution by inputting a postcode or allowing automatic geolocation. It displays an intuitive color-coded Air Quality Index (AQI) to quickly communicate the air quality level. ",
@@ -22,10 +23,12 @@ export const projectData = [
     projectLink: "https://uk-air-pollution-checker.netlify.app",
     projectGitHubLink: "https://github.com/TKeyes267/AirPollutionChecker",
     projectImage: "src/assets/images/portfolioDuotoneGreen6.png",
+    projectImage2: "src/assets/images/Screenshot 2023-08-17 at 11.18.08.png",
   },
   {
     projectID: 1,
     projectTitle: "Floater",
+    projectURL: "Floater",
     projectSummary:
       "Floater allows you to find swimming sites and check they are safe. It features an interative map and a reviewing system. ",
     projectDescription:
@@ -45,11 +48,13 @@ export const projectData = [
     projectStack: "Typescript, React, HTML, CSS, Leaflet.js, Mongo.DB",
     projectLink: "https://github.com/TKeyes267/wild-swimming-appyes267",
     projectGitHubLink: "https://github.com/TKeyes267/AirPollutionChecker",
-    projectImage: "src/assets/images/portfolioDuotoneGreen6.png",
+    projectImage: "src/assets/images/Screenshot 2023-09-12 at 18.54.31.png",
+    projectImage2: "src/assets/images/Screenshot 2023-09-06 at 17.31.07.pngg",
   },
   {
     projectID: 2,
     projectTitle: "Ancoats Post Front-end",
+    projectURL: "Ancoats_Post_Frontend",
     projectSummary:
       "The Ancoats Post is a C.R.U.D web app for news articles built using React",
     projectDescription:
@@ -70,11 +75,13 @@ export const projectData = [
     projectStack: "Javascript, React, HTML, CSS",
     projectLink: "https://tkncnews.netlify.app/articles",
     projectGitHubLink: "https://github.com/TKeyes267/nc-news-frontend",
-    projectImage: "src/assets/images/portfolioDuotoneGreen6.png",
+    projectImage: "src/assets/images/Screenshot 2023-09-12 at 18.31.40 (2).png",
+    projectImage2: "src/assets/images/Screenshot 2023-09-12 at 18.41.09.png",
   },
   {
     projectID: 3,
     projectTitle: "Ancoats Post Back-end",
+    projectURL: "Ancoats_Post_Backend",
     projectSummary:
       "The Ancoats Post Backend API is a robust foundation for managing news articles and user comments, built to be scalable and reliable.",
     projectDescription:
@@ -95,6 +102,7 @@ export const projectData = [
       "Javascript, Express.js, Node.js, PostgreSQL, Jest, Supertest",
     projectLink: "https://nc-news-zypp.onrender.com",
     projectGitHubLink: "https://github.com/TKeyes267/NC-news-backend",
-    projectImage: "src/assets/images/portfolioDuotoneGreen6.png",
+    projectImage: "src/assets/images/Screenshot 2023-08-17 at 11.58.43.png",
+    projectImage2: "src/assets/images/Screenshot 2023-08-17 at 11.58.03.png",
   },
 ];

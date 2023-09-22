@@ -2,16 +2,19 @@ import "./App.css";
 
 import Main from "./Pages/Main";
 import SingleProject from "./Pages/SingleProject";
+import Header from "./Pages/Header";
 
 import { Routes, Route } from "react-router-dom";
 
 function App() {
   return (
-    <Routes>
-      <Route path="/" element={<Main />} />
-
-      <Route path="/:project_id" element={<SingleProject />} />
-    </Routes>
+    <>
+      <Header />
+      <Routes>
+        <Route path="/" element={<Main />} />
+        <Route path="/:projectURL" element={<SingleProject />} />
+      </Routes>
+    </>
   );
 }
 
