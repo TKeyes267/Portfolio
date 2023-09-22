@@ -15,19 +15,12 @@
   .snap-start {
     scroll-snap-align: start;
   }
-}
-/* 
-@font-face {
-  font-family: "test";
-  src: url("src/assets/fonts/TriakisFont-Regular.otf");
-}
+  .no-scrollbar::-webkit-scrollbar {
+    display: none;
+  }
 
-@font-face {
-  font-family: "tit";
-  src: url("src/assets/fonts/TitilliumWeb-Light.ttf") f;
+  .no-scrollbar {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
 }
-
-@font-face {
-  font-family: "kal";
-  src: url("src/assets/fonts/Kalmansk-Regular.otf");
-} */

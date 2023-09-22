@@ -9,19 +9,19 @@ const Contact = () => {
     <main>
       <div className="w-[100dvw] h-[100dvh] grid grid-rows-2">
         <div className="h-full flex flex-col justify-between">
-          <div className="p-5 md:pl-10 md:py-10 xl:pl-20 xl:py-20 flex flex-col justify-between h-full bg-moss">
-            <Typography className="w-full text-9xl md:text-[17rem] mb-16 text-teal font-tit">
+          <div className="p-5 md:pl-10 md:py-10 flex flex-col justify-center h-full bg-teal">
+            <Typography className="w-full text-9xl md:text-[12rem] xl:text-[15rem] text-moss font-tit flex ">
               Get in touch
             </Typography>
           </div>
         </div>
         <div>
-          <div className="bg-teal h-full p-5 md:pl-10 md:py-10 xl:pl-20 xl:py-20">
-            <ul className=" flex flex-col md:gap-12 gap-6 ">
+          <div className="bg-moss h-full p-5 md:pl-10 md:py-10 flex flex-row justify-between">
+            <ul className=" flex flex-col justify-between  ">
               <Typography
                 as="li"
                 color="white"
-                className=" font-light text-moss text-xl font-tit"
+                className=" font-light text-teal text-md md:text-xl font-tit"
               >
                 <a
                   target="_blank"
@@ -36,7 +36,7 @@ const Contact = () => {
               <Typography
                 as="li"
                 color="white"
-                className=" font-light text-moss text-xl font-tit"
+                className=" font-light text-teal text-md md:text-xl font-tit"
               >
                 <a
                   target="_blank"
@@ -51,7 +51,7 @@ const Contact = () => {
               <Typography
                 as="li"
                 color="white"
-                className=" font-light text-moss text-xl font-tit"
+                className=" font-light text-teal text-md md:text-xl font-tit"
               >
                 <a
                   target="_blank"
@@ -66,7 +66,7 @@ const Contact = () => {
               <Typography
                 as="li"
                 color="white"
-                className="gap-10 flex flex-row items-center font-light text-moss text-xl font-tit"
+                className="gap-10 flex flex-row items-center font-light text-teal text-md md:text-xl font-tit"
               >
                 <LocalPhoneSharpIcon fontSize="medium" />
                 +44 744 922 1752
@@ -74,7 +74,7 @@ const Contact = () => {
               <Typography
                 as="li"
                 color="white"
-                className="gap-10 flex flex-row items-center font-light text-moss text-xl font-tit"
+                className="gap-10 flex flex-row items-center font-light text-teal text-md md:text-xl font-tit"
               >
                 <CopyrightIcon fontSize="medium" />
                 Designed and built by Tom Keyes, 2023
