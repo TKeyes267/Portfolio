@@ -125,7 +125,7 @@ const Header = () => {
   const [openNav, setOpenNav] = useState(false);
   return (
     <main>
-      <div className="bg-inherit border-none z-50  flex flex-row justify-end lg:hidden">
+      <div className="bg-teal border-none z-50  flex flex-row justify-end lg:hidden">
         {openNav ? (
           <Button
             variant="text"
@@ -136,7 +136,7 @@ const Header = () => {
           >
             <div className="h-screen w-screen flex flex-row-reverse justify-end ">
               <MenuOpenSharpIcon
-                className="m-5 md:m-10 w-12 h-12 text-teal bg-moss"
+                className="m-2.5 md:m-10 w-12 h-12 text-teal bg-moss"
                 strokeWidth={4}
                 viewBox="0 0 24 24"
                 fontSize="large"
@@ -147,13 +147,13 @@ const Header = () => {
         ) : (
           <Button
             variant="text"
-            className=" bg-transparent py-0 px-0 rounded-none transition-all normal-case"
+            className=" bg-teal py-0 px-0 rounded-none transition-all normal-case"
             ripple={false}
             onClick={() => setOpenNav(!openNav)}
             uppercase={false}
           >
             <MenuSharpIcon
-              className="m-5 md:m-10 w-12 h-12 text-moss bg-transparent"
+              className="m-2.5 md:m-10 w-12 h-12 text-moss bg-transparent"
               strokeWidth={4}
               viewBox="0 0 24 24"
               fontSize="large"
@@ -167,7 +167,7 @@ const Header = () => {
             <Typography
               as="li"
               variant="small"
-              className="h-fit font-light text-moss md:text-2xl content-center font-tit tracking-wide hover:underline "
+              className="h-fit font-light text-moss md:text-2xl content-center font-tit tracking-wide hover:font-extrabold "
             >
               <a
                 href="/#aboutPage"
@@ -180,7 +180,7 @@ const Header = () => {
               as="li"
               variant="small"
               color="white"
-              className="h-fit font-light text-moss md:text-2xl content-centerm font-tit tracking-wide hover:underline"
+              className="h-fit font-light text-moss md:text-2xl content-centerm font-tit tracking-wide hover:font-extrabold"
             >
               <a
                 href="/#projectPage"
@@ -193,7 +193,7 @@ const Header = () => {
               as="li"
               variant="small"
               color="white"
-              className="h-fit font-light text-moss md:text-2xl content-center font-tit tracking-wide hover:underline"
+              className="h-fit font-light text-moss md:text-2xl content-center font-tit tracking-wide hover:font-extrabold"
             >
               <a
                 href="/#skillsPage"
@@ -206,7 +206,7 @@ const Header = () => {
               as="li"
               variant="small"
               color="white"
-              className="h-fit font-light text-moss md:text-2xl content-center font-tit tracking-wide hover:underline"
+              className="h-fit font-light text-moss md:text-2xl content-center font-tit tracking-wide hover:font-extrabold"
             >
               <a
                 href="/#contactPage"

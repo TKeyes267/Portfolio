@@ -9,44 +9,37 @@ import Skills from "../Pages/Skills";
 function Main() {
   return (
     <main>
-      <div className="h-screen w-screen overflow-y-scroll overflow-x-hidden snap-mandatory snap-y scroll-smooth">
+      <div className="h-screen w-screen overflow-y-scroll overflow-x-hidden md:snap-mandatory snap-y scroll-smooth">
         <section
           id="homePage"
-          className="w-screen snap-mandatory snap-start overflow-auto"
+          className="h-full w-screen relative md:snap-mandatory md:snap-start overflow-auto"
         >
           <Landing />
         </section>
         <section
           id="aboutPage"
-          className="w-screen snap-mandatory snap-start overflow-auto"
+          className="h-full w-screen relative md:snap-mandatory md:snap-start overflow-auto"
         >
           <About />
         </section>
         <section
           id="projectPage"
-          className="w-screen snap-mandatory snap-start overflow-auto"
+          className="h-full w-screen relative md:snap-mandatory md:snap-start overflow-auto"
         >
           <Projects />
         </section>
         <section
           id="skillsPage"
-          className="w-screen snap-mandatory snap-start overflow-auto"
+          className="h-full w-screen relative md:snap-mandatory md:snap-start overflow-auto"
         >
           <Skills />
         </section>
-        <section
+        <footer
           id="contactPage"
-          className="h-[100dvh] w-screen snap-mandatory snap-start overflow-auto"
+          className="h-full w-screen relative md:snap-mandatory md:snap-end overflow-auto"
         >
           <Contact />
-        </section>
-
-        {/* <footer
-          id="contactPage"
-          className="h-[100dvh] w-screen snap-mandatory snap-start overflow-auto"
-        >
-          <Contact />
-        </footer> */}
+        </footer>
       </div>
     </main>
   );

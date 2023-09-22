@@ -29,26 +29,32 @@ const ProjectCards = () => {
         return (
           <Card
             key={project.projectID}
-            className="w-[1000px] h-[500px] text-moss bg-moss rounded-none mx-20 shadow-none snap-center bg-fixed opacity-100 transition duration-300 ease-in-out hover:opacity-60 "
+            className="w-[1000px] h-[500px] text-moss bg-moss rounded-none mx-20 shadow-none snap-center bg-fixed opacity-100 transition duration-300 ease-in-out hover:opacity-70 "
           >
             <CardHeader className="bg-moss shadow-none rounded-none p-0 m-0 overflow-hidden">
-              <img
-                src={project.projectImage}
-                alt="image 1"
-                className="object-cover  object-center"
-              />
+              <Link
+                to={`/${project.projectURL}`}
+                state={{ title }}
+                className="inline-block"
+              >
+                <img
+                  src={project.projectImage}
+                  alt="image 1"
+                  className="object-cover  object-center"
+                />
+              </Link>
             </CardHeader>
 
             <div className="w-[1000px]">
               <CardBody className=" bg-silver p-5 ">
                 <Link
-                  to={`/project/${project.projectID}`}
+                  to={`/${project.projectURL}`}
                   state={{ title }}
                   className="inline-block"
                 >
                   <Typography
                     color="blue"
-                    className=" bg-blue text-teal font-normal text-2xl md:text-4xl font-tit pb-5 hover:underline"
+                    className=" bg-blue text-teal font-normal text-2xl md:text-4xl font-tit pb-5 hover:font-extrabold"
                   >
                     {project.projectTitle}
                   </Typography>
