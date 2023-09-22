@@ -115,7 +115,7 @@ const SingleProject = () => {
           </div>
 
           <Link to={`/#projectPage`} className="inline-block">
-            <Typography className="bg-moss text-teal hover:text-moss hover:bg-teal p-2 text-xl md:text-xl">
+            <Typography className="bg-teal text-moss hover:text-teal hover:bg-moss p-2 text-xl md:text-xl">
               Back
             </Typography>
           </Link>
