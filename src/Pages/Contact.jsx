@@ -3,7 +3,7 @@ import { Typography } from "@material-tailwind/react";
 import MailOutlineSharpIcon from "@mui/icons-material/MailOutlineSharp";
 import LocalPhoneSharpIcon from "@mui/icons-material/LocalPhoneSharp";
 import CopyrightIcon from "@mui/icons-material/Copyright";
-import ArrowDownwardSharpIcon from "@mui/icons-material/ArrowDownwardSharp";
+import ArrowUpwardSharpIcon from "@mui/icons-material/ArrowUpwardSharp";
 
 const Contact = () => {
   return (
@@ -17,7 +17,7 @@ const Contact = () => {
           </div>
         </div>
         <div>
-          <div className="bg-moss h-full p-5 md:pl-10 md:py-10 flex flex-row justify-between">
+          <div className="bg-moss h-full w-screen p-5 md:px-10 md:py-10 flex flex-row justify-between">
             <ul className=" flex flex-col justify-between  ">
               <Typography
                 as="li"
@@ -72,6 +72,7 @@ const Contact = () => {
                 <LocalPhoneSharpIcon fontSize="medium" />
                 +44 744 922 1752
               </Typography>
+
               <Typography
                 as="li"
                 color="white"
@@ -80,15 +81,14 @@ const Contact = () => {
                 <CopyrightIcon fontSize="medium" />
                 Designed and built by Tom Keyes, 2023
               </Typography>
-
-              <a
-                href="#aboutPage"
-                className="flex items-center justify-end transition-colors text-teal hover:text-teal hover:bg-moss scroll-smooth	"
-              >
-                <span className="sr-only">Scroll down to About section</span>
-                <ArrowDownwardSharpIcon fontSize="large" />
-              </a>
             </ul>
+            <a
+              href="#homePage"
+              className="flex items-end justify-end transition-colors text-teal hover:text-teal hover:bg-moss scroll-smooth	"
+            >
+              <span className="sr-only">Scroll down to About section</span>
+              <ArrowUpwardSharpIcon fontSize="large" />
+            </a>
           </div>
         </div>
       </div>

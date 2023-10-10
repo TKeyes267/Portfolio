@@ -10,7 +10,7 @@ function Main() {
   return (
     <main>
       <Header />
-      <div className="h-screen w-screen overflow-y-scroll overflow-x-hidden md:snap-mandatory snap-y scroll-smooth">
+      <div className=" w-screen overflow-y-scroll overflow-x-hidden md:snap-mandatory snap-y scroll-smooth">
         <section
           id="homePage"
           className=" w-screen relative md:snap-mandatory snap-start overflow-auto z-10"
@@ -19,13 +19,13 @@ function Main() {
         </section>
         <section
           id="aboutPage"
-          className=" w-screen relative md:snap-mandatory snap-start overflow-auto z-20"
+          className="h-full w-screen relative md:snap-mandatory snap-start overflow-auto z-20"
         >
           <About />
         </section>
         <section
           id="projectPage"
-          className=" w-screen relative md:snap-mandatory snap-start overflow-auto z-30"
+          className="h-full w-screen relative md:snap-mandatory snap-start overflow-auto z-30"
         >
           <Projects />
         </section>
