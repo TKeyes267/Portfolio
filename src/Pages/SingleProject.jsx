@@ -49,11 +49,6 @@ const SingleProject = () => {
         <div className="p-2.5 md:p-5 grid grid-cols-2">
           <div className="p-2.5 md:p-5">
             <img
-              src={project.projectImage}
-              alt="image 1"
-              className="object-cover object-center pb-2.5 md:pb-5"
-            />
-            <img
               src={project.projectImage2}
               alt="image 2"
               className="object-cover object-center"
@@ -62,32 +57,32 @@ const SingleProject = () => {
           <ul className="p-2.5 md:p-5 flex flex-col">
             <Typography
               color="blue"
-              className="bg-silver text-teal font-normal text-xl md:text-2xl font-tit p-5 mb-5"
+              className="bg-silver text-teal font-normal text-lg md:text-xl font-tit p-5 mb-5"
             >
               <b>{project.projectFeatureTitle1}</b> {project.projectFeature1}
             </Typography>
 
             <Typography
               color="blue"
-              className="bg-silver text-teal font-normal text-xl md:text-2xl font-tit p-5 mb-5 "
+              className="bg-silver text-teal font-normal text-lg md:text-xl font-tit p-5 mb-5 "
             >
               <b>{project.projectFeatureTitle2}</b> {project.projectFeature2}
             </Typography>
             <Typography
               color="blue"
-              className="bg-silver text-teal font-normal text-xl md:text-2xl font-tit p-5 mb-5 "
+              className="bg-silver text-teal font-normal text-lg md:text-xl font-tit p-5 mb-5 "
             >
               <b>{project.projectFeatureTitle3}</b> {project.projectFeature3}
             </Typography>
             <Typography
               color="blue"
-              className="bg-silver text-teal font-normal text-xl md:text-2xl font-tit p-5 mb-5 "
+              className="bg-silver text-teal font-normal text-lg md:text-xl font-tit p-5 mb-5 "
             >
               <b>{project.projectFeatureTitle4}</b> {project.projectFeature4}
             </Typography>
             <Typography
               color="blue"
-              className="bg-silver text-teal font-normal text-xl md:text-2xl font-tit p-5 mb-5 "
+              className="bg-silver text-teal font-normal text-lg md:text-xl font-tit p-5 mb-5 "
             >
               <b> Tech Stack:</b> {project.projectStack}
             </Typography>

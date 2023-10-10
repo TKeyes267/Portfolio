@@ -125,16 +125,7 @@ const Header = () => {
   const [openNav, setOpenNav] = useState(false);
   return (
     <main>
-      <div className="bg-teal border-none z-50 flex flex-row justify-between lg:hidden">
-        <div className="flex items-center">
-          <Typography
-            as="li"
-            color="white"
-            className="font-light text-moss text-xl font-tit tracking-wide pl-5"
-          >
-            {`<Tom Keyes />`}
-          </Typography>
-        </div>
+      <div className="bg-teal border-none z-50 flex flex-row justify-end lg:hidden">
         {openNav ? (
           <Button
             variant="text"

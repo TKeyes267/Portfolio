@@ -1,32 +1,6 @@
 export const projectData = [
   {
     projectID: 0,
-    projectTitle: "UK Air Pollution Checker",
-    projectURL: "Air_Pollution_Checker",
-    projectSummary:
-      "UK Air Pollution Checker is a web application designed to empower users by providing real-time information about air quality in their vicinity.",
-    projectDescription:
-      "UK Air Pollution Checker is a web application designed to empower users by providing real-time information about air quality in their vicinity. Whether you're concerned about personal health or the environment, this app offers a straightforward and informative solution.",
-    projectFeatureTitle1: "Location-based AQI: ",
-    projectFeature1:
-      "The app offers users the ability to check air pollution by inputting a postcode or allowing automatic geolocation. It displays an intuitive color-coded Air Quality Index (AQI) to quickly communicate the air quality level. ",
-    projectFeatureTitle2: "Detailed Insights: ",
-    projectFeature2:
-      "Beyond the AQI, users can explore in-depth details about various pollutants present in the air. The app breaks down each pollutant type and presents comprehensive data for those seeking a more thorough understanding. ",
-    projectFeatureTitle3: "Live Data Integration: ",
-    projectFeature3:
-      "The application dynamically fetches air quality data from an external API, ensuring that the information presented is up-to-date and accurate. Another API is employed to obtain coordinates from user-provided postcodes. ",
-    projectFeatureTitle4: "User-Centered Design: ",
-    projectFeature4:
-      "The user interface was meticulously crafted using Bootstrap, ensuring a clear and readable design that caters to accessibility needs. Informative use of colors and a user-friendly layout guarantee an inclusive experience for all users. ",
-    projectStack: "Typescript, React, Bootstrap, HTML",
-    projectLink: "https://uk-air-pollution-checker.netlify.app",
-    projectGitHubLink: "https://github.com/TKeyes267/AirPollutionChecker",
-    projectImage: "src/assets/images/portfolioDuotoneGreen6.png",
-    projectImage2: "src/assets/images/Screenshot 2023-08-17 at 11.18.08.png",
-  },
-  {
-    projectID: 1,
     projectTitle: "Floater",
     projectURL: "Floater",
     projectSummary:
@@ -48,8 +22,36 @@ export const projectData = [
     projectStack: "Typescript, React, HTML, CSS, Leaflet.js, Mongo.DB",
     projectLink: "https://github.com/TKeyes267/wild-swimming-appyes267",
     projectGitHubLink: "https://github.com/TKeyes267/AirPollutionChecker",
-    projectImage: "src/assets/images/Screenshot 2023-09-12 at 18.54.31.png",
-    projectImage2: "src/assets/images/Screenshot 2023-09-06 at 17.31.07.pngg",
+    projectImage: "src/assets/images/Portfolio Mockup Floatr Mobile copy 2.jpg",
+    projectImage2: "src/assets/images/Portfolio Mockup Floatr Laptop copy.jpg",
+  },
+  {
+    projectID: 1,
+    projectTitle: "UK Air Pollution Checker",
+    projectURL: "Air_Pollution_Checker",
+    projectSummary:
+      "UK Air Pollution Checker is a web application designed to empower users by providing real-time information about air quality in their vicinity.",
+    projectDescription:
+      "UK Air Pollution Checker is a web application designed to empower users by providing real-time information about air quality in their vicinity. Whether you're concerned about personal health or the environment, this app offers a straightforward and informative solution.",
+    projectFeatureTitle1: "Location-based AQI: ",
+    projectFeature1:
+      "The app offers users the ability to check air pollution by inputting a postcode or allowing automatic geolocation. It displays an intuitive color-coded Air Quality Index (AQI) to quickly communicate the air quality level. ",
+    projectFeatureTitle2: "Detailed Insights: ",
+    projectFeature2:
+      "Beyond the AQI, users can explore in-depth details about various pollutants present in the air. The app breaks down each pollutant type and presents comprehensive data for those seeking a more thorough understanding. ",
+    projectFeatureTitle3: "Live Data Integration: ",
+    projectFeature3:
+      "The application dynamically fetches air quality data from an external API, ensuring that the information presented is up-to-date and accurate. Another API is employed to obtain coordinates from user-provided postcodes. ",
+    projectFeatureTitle4: "User-Centered Design: ",
+    projectFeature4:
+      "The user interface was meticulously crafted using Bootstrap, ensuring a clear and readable design that caters to accessibility needs. Informative use of colors and a user-friendly layout guarantee an inclusive experience for all users. ",
+    projectStack: "Typescript, React, Bootstrap, HTML",
+    projectLink: "https://uk-air-pollution-checker.netlify.app",
+    projectGitHubLink: "https://github.com/TKeyes267/AirPollutionChecker",
+    projectImage:
+      "src/assets/images/Portfolio Mockup AirPollution Mobile copy 2.jpg",
+    projectImage2:
+      "src/assets/images/Portfolio Mockup Air Pollution Laptop copy.jpg",
   },
   {
     projectID: 2,
@@ -75,8 +77,10 @@ export const projectData = [
     projectStack: "Javascript, React, HTML, CSS",
     projectLink: "https://tkncnews.netlify.app/articles",
     projectGitHubLink: "https://github.com/TKeyes267/nc-news-frontend",
-    projectImage: "src/assets/images/Screenshot 2023-09-12 at 18.31.40 (2).png",
-    projectImage2: "src/assets/images/Screenshot 2023-09-12 at 18.41.09.png",
+    projectImage:
+      "src/assets/images/Portfolio Mockup Ancoats Post Laptop copy.jpg",
+    projectImage2:
+      "src/assets/images/Portfolio Mockup Ancoats Post Laptop copy.jpg",
   },
   {
     projectID: 3,
@@ -102,7 +106,9 @@ export const projectData = [
       "Javascript, Express.js, Node.js, PostgreSQL, Jest, Supertest",
     projectLink: "https://nc-news-zypp.onrender.com",
     projectGitHubLink: "https://github.com/TKeyes267/NC-news-backend",
-    projectImage: "src/assets/images/Screenshot 2023-08-17 at 11.58.43.png",
-    projectImage2: "src/assets/images/Screenshot 2023-08-17 at 11.58.03.png",
+    projectImage:
+      "src/assets/images/Portfolio Mockup Ancoats Post Backend Laptop copy.jpg",
+    projectImage2:
+      "src/assets/images/Portfolio Mockup Ancoats Post Backend Laptop copy.jpg",
   },
 ];

@@ -7,7 +7,7 @@ const Projects = () => {
       <Typography className="text-6xl md:text-8xl px-5 md:px-10 pt-5 md:pt-20 pb-10 md:pb-0 text-moss font-tit flex justify-start tracking-wide">
         Projects
       </Typography>
-      <div className="flex items-center h-full  bg-teal">
+      <div className="flex lg:flex-row flex-col items-center h-full  bg-teal">
         <ProjectCards />
       </div>
     </main>

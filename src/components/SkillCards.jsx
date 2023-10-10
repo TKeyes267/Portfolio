@@ -26,7 +26,7 @@ const SkillCards = () => {
             <CardBody className="p-0  rounded-none">
               <i class={skill.skillLogo}></i>
             </CardBody>
-            <Typography className="py-5 md:py-10 text-lg md:text-2xl text-forest font-tit">
+            <Typography className="py-4 md:py-10 text-md md:text-2xl text-forest font-tit">
               {skill.skillName}
             </Typography>
           </Card>

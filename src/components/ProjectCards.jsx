@@ -21,31 +21,33 @@ const ProjectCards = () => {
   });
 
   return (
-    <div className="snap-x md:snap-mandatory flex md:flex-row flex-col items-center h-full overflow-x-auto px-[calc(50%-140px)] no-scrollbar">
+    <div className="snap-x md:snap-mandatory  h-full overflow-x-auto px-[calc(50%-140px)] no-scrollbar">
       {projects.map((project) => {
         const title = project.projectID;
 
         return (
           <Card
             key={project.projectID}
-            className="w-[350px] md:w-[1000px] h-[500px] md:h-[500px] text-moss bg-moss rounded-none md:mx-20 my-10 shadow-none snap-center bg-fixed opacity-100 transition duration-300 ease-in-out "
+            className="w-[350px] lg:w-[1000px] h-[500px] lg:h-[500px] text-moss bg-moss rounded-none lg:mx-20 my-10 shadow-none snap-center bg-fixed opacity-100 transition duration-300 ease-in-out "
           >
-            <CardHeader className="bg-moss shadow-none rounded-none p-0 m-0 overflow-hidden">
+            <CardHeader className="bg-moss shadow-none rounded-none p-0 m-0 ">
               <Link
                 to={`/${project.projectURL}`}
                 state={{ title }}
                 className="inline-block"
               >
-                <img
-                  src={project.projectImage}
-                  alt="image 1"
-                  className="object-cover  object-center"
-                />
+                <div className="overflow-hidden">
+                  <img
+                    src={project.projectImage}
+                    alt="image 1"
+                    className=" relative"
+                  />
+                </div>
               </Link>
             </CardHeader>
 
-            <div className="w-[350px] md:w-[1000px] flex flex-col flex-wrap justify-between content-between">
-              <CardBody className=" bg-silver p-5">
+            <div className="w-[350px] lg:w-[1000px] flex flex-col flex-wrap justify-between content-between">
+              <CardBody className=" bg-silver p-5 w-full">
                 <Link
                   to={`/${project.projectURL}`}
                   state={{ title }}
