@@ -75,7 +75,7 @@ function NavList() {
               href="https://www.linkedin.com/in/tom-keyes-5abb3815a/"
               className="gap-12 flex flex-row items-center "
             >
-              <i class="devicon-linkedin-plain "></i>
+              <i className="devicon-linkedin-plain "></i>
               LinkedIn
             </a>
           </Typography>
@@ -89,7 +89,7 @@ function NavList() {
               href="https://github.com/TKeyes267"
               className="gap-12 flex flex-row items-center "
             >
-              <i class="devicon-github-original"></i>
+              <i className="devicon-github-original"></i>
               Github
             </a>
           </Typography>
@@ -132,7 +132,6 @@ const Header = () => {
             className=" bg-moss hover:bg-moss active:bg-moss py-0 px-0 rounded-none transition-all normal-case"
             ripple={false}
             onClick={() => setOpenNav(!openNav)}
-            uppercase={false}
           >
             <div className="h-screen w-screen flex flex-row-reverse justify-end ">
               <MenuOpenSharpIcon
@@ -150,7 +149,6 @@ const Header = () => {
             className=" bg-teal py-0 px-0 rounded-none transition-all normal-case h-[7dvh]"
             ripple={false}
             onClick={() => setOpenNav(!openNav)}
-            uppercase={false}
           >
             <MenuSharpIcon
               className="m-2.5 md:m-10 w-12 h-12 text-moss bg-transparent"

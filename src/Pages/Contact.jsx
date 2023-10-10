@@ -8,13 +8,11 @@ import ArrowUpwardSharpIcon from "@mui/icons-material/ArrowUpwardSharp";
 const Contact = () => {
   return (
     <main>
-      <div className="w-[100dvw] h-[100dvh] grid grid-rows-2">
-        <div className="h-full flex flex-col justify-between">
-          <div className="p-5 md:pl-10 md:py-10 flex flex-col justify-center h-full bg-teal">
-            <Typography className="w-full text-9xl md:text-[12rem] xl:text-[15rem] text-moss font-tit flex ">
-              Get in touch
-            </Typography>
-          </div>
+      <div className="w-[100dvw] h-[100dvh] grid grid-rows-2 bg-teal">
+        <div className="p-5 md:pl-10 md:py-10 flex flex-col justify-center bg-teal">
+          <Typography className="w-full text-9xl md:text-[12rem] xl:text-[15rem] text-moss font-tit flex ">
+            Get in touch
+          </Typography>
         </div>
         <div>
           <div className="bg-moss h-full w-screen p-5 md:px-10 md:py-10 flex flex-row justify-between">
