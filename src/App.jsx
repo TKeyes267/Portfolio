@@ -9,7 +9,7 @@ import { Routes, Route } from "react-router-dom";
 function App() {
   return (
     <>
-      <Header />
+      {/* <Header /> */}
       <Routes>
         <Route path="/" element={<Main />} />
         <Route path="/:projectURL" element={<SingleProject />} />

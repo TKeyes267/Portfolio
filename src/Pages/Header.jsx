@@ -125,7 +125,16 @@ const Header = () => {
   const [openNav, setOpenNav] = useState(false);
   return (
     <main>
-      <div className="bg-teal border-none z-50  flex flex-row justify-end lg:hidden">
+      <div className="bg-teal border-none z-50 flex flex-row justify-between lg:hidden">
+        <div className="flex items-center">
+          <Typography
+            as="li"
+            color="white"
+            className="font-light text-moss text-xl font-tit tracking-wide pl-5"
+          >
+            {`<Tom Keyes />`}
+          </Typography>
+        </div>
         {openNav ? (
           <Button
             variant="text"
@@ -147,7 +156,7 @@ const Header = () => {
         ) : (
           <Button
             variant="text"
-            className=" bg-teal py-0 px-0 rounded-none transition-all normal-case"
+            className=" bg-teal py-0 px-0 rounded-none transition-all normal-case h-[7dvh]"
             ripple={false}
             onClick={() => setOpenNav(!openNav)}
             uppercase={false}
@@ -167,7 +176,7 @@ const Header = () => {
             <Typography
               as="li"
               variant="small"
-              className="h-fit font-light text-moss md:text-2xl content-center font-tit tracking-wide hover:font-extrabold "
+              className="h-fit font-light text-moss md:text-2xl content-center font-tit tracking-wide hover:underline"
             >
               <a
                 href="/#aboutPage"
@@ -180,7 +189,7 @@ const Header = () => {
               as="li"
               variant="small"
               color="white"
-              className="h-fit font-light text-moss md:text-2xl content-centerm font-tit tracking-wide hover:font-extrabold"
+              className="h-fit font-light text-moss md:text-2xl content-centerm font-tit tracking-wide hover:underline"
             >
               <a
                 href="/#projectPage"
@@ -193,7 +202,7 @@ const Header = () => {
               as="li"
               variant="small"
               color="white"
-              className="h-fit font-light text-moss md:text-2xl content-center font-tit tracking-wide hover:font-extrabold"
+              className="h-fit font-light text-moss md:text-2xl content-center font-tit tracking-wide hover:underline"
             >
               <a
                 href="/#skillsPage"
@@ -206,7 +215,7 @@ const Header = () => {
               as="li"
               variant="small"
               color="white"
-              className="h-fit font-light text-moss md:text-2xl content-center font-tit tracking-wide hover:font-extrabold"
+              className="h-fit font-light text-moss md:text-2xl content-center font-tit tracking-wide hover:underline"
             >
               <a
                 href="/#contactPage"

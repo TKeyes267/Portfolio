@@ -3,6 +3,7 @@ import { Typography } from "@material-tailwind/react";
 import MailOutlineSharpIcon from "@mui/icons-material/MailOutlineSharp";
 import LocalPhoneSharpIcon from "@mui/icons-material/LocalPhoneSharp";
 import CopyrightIcon from "@mui/icons-material/Copyright";
+import ArrowDownwardSharpIcon from "@mui/icons-material/ArrowDownwardSharp";
 
 const Contact = () => {
   return (
@@ -79,6 +80,14 @@ const Contact = () => {
                 <CopyrightIcon fontSize="medium" />
                 Designed and built by Tom Keyes, 2023
               </Typography>
+
+              <a
+                href="#aboutPage"
+                className="flex items-center justify-end transition-colors text-teal hover:text-teal hover:bg-moss scroll-smooth	"
+              >
+                <span className="sr-only">Scroll down to About section</span>
+                <ArrowDownwardSharpIcon fontSize="large" />
+              </a>
             </ul>
           </div>
         </div>

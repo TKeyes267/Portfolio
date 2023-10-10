@@ -11,7 +11,6 @@ import {
 } from "@material-tailwind/react";
 
 import LaunchSharpIcon from "@mui/icons-material/LaunchSharp";
-import SingleProject from "../Pages/SingleProject";
 
 const ProjectCards = () => {
   const [projects, setProjects] = useState([]);
@@ -22,14 +21,14 @@ const ProjectCards = () => {
   });
 
   return (
-    <div className="snap-x snap-mandatory flex flex-row items-center h-full overflow-x-auto px-[calc(50%-140px)] no-scrollbar">
+    <div className="snap-x md:snap-mandatory flex md:flex-row flex-col items-center h-full overflow-x-auto px-[calc(50%-140px)] no-scrollbar">
       {projects.map((project) => {
         const title = project.projectID;
 
         return (
           <Card
             key={project.projectID}
-            className="w-[1000px] h-[500px] text-moss bg-moss rounded-none mx-20 shadow-none snap-center bg-fixed opacity-100 transition duration-300 ease-in-out hover:opacity-70 "
+            className="w-[350px] md:w-[1000px] h-[500px] md:h-[500px] text-moss bg-moss rounded-none md:mx-20 my-10 shadow-none snap-center bg-fixed opacity-100 transition duration-300 ease-in-out "
           >
             <CardHeader className="bg-moss shadow-none rounded-none p-0 m-0 overflow-hidden">
               <Link
@@ -45,8 +44,8 @@ const ProjectCards = () => {
               </Link>
             </CardHeader>
 
-            <div className="w-[1000px]">
-              <CardBody className=" bg-silver p-5 ">
+            <div className="w-[350px] md:w-[1000px] flex flex-col flex-wrap justify-between content-between">
+              <CardBody className=" bg-silver p-5">
                 <Link
                   to={`/${project.projectURL}`}
                   state={{ title }}
@@ -54,7 +53,7 @@ const ProjectCards = () => {
                 >
                   <Typography
                     color="blue"
-                    className=" bg-blue text-teal font-normal text-2xl md:text-4xl font-tit pb-5 hover:font-extrabold"
+                    className=" bg-blue text-teal font-normal text-2xl md:text-4xl font-tit pb-5 hover:underline"
                   >
                     {project.projectTitle}
                   </Typography>
@@ -66,7 +65,7 @@ const ProjectCards = () => {
                   {project.projectSummary}
                 </Typography>
               </CardBody>
-              <CardFooter className=" flex flex-row justify-between items-center p-5 text-teal">
+              <CardFooter className="h-[100px] flex flex-row justify-between items-center p-5 text-teal">
                 <div className="flex flex-row items-center gap-5">
                   <Link
                     to={`${project.projectGitHubLink}`}
@@ -94,7 +93,7 @@ const ProjectCards = () => {
                   state={{ title }}
                   className="inline-block"
                 >
-                  <Typography className="bg-moss text-teal hover:text-moss hover:bg-teal p-2 text-xl md:text-xl">
+                  <Typography className="bg-moss text-teal hover:text-moss hover:bg-teal md:p-2 text-lg md:text-xl">
                     Read More
                   </Typography>
                 </Link>
