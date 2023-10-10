@@ -86,7 +86,7 @@ export const skillData = [
   },
   {
     skillID: 18,
-    skillName: "Canva",
-    skillLogo: "devicon-canva-plain colored text-4xl md:text-6xl",
+    skillName: "React Native",
+    skillLogo: "devicon-react-plain colored text-4xl md:text-6xl",
   },
 ];

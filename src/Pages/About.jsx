@@ -10,7 +10,7 @@ import {
 
 const About = () => {
   return (
-    <main className="w-[100dvw] md:h-[100dvh] h-full">
+    <main className="w-[100dvw] md:h-[100dvh] h-full no-scrollbar">
       <div className="md:grid grid-cols-2">
         <div className="bg-moss md:h-[100dvh] h-full ">
           <div className="block ml-auto mr-auto text-teal">
