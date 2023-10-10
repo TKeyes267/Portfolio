@@ -58,7 +58,7 @@ export const projectData = [
     projectTitle: "Ancoats Post Front-end",
     projectURL: "Ancoats_Post_Frontend",
     projectSummary:
-      "The Ancoats Post is a C.R.U.D web app for news articles built using React",
+      "The Ancoats Post is a C.R.U.D web app for news articles built using React.",
     projectDescription:
       "As part of my bootcamp journey, I undertook the challenge of creating the Ancoats Post, a dynamic web application built with JavaScript and React. It offers a comprehensive set of features for creating, reading, updating, and deleting news articles. This project served as the frontend interface for a comprehensive Reddit style news platform, seamlessly integrating with the backend.",
 

@@ -21,14 +21,14 @@ const ProjectCards = () => {
   });
 
   return (
-    <div className="snap-x md:snap-mandatory  h-full overflow-x-auto px-[calc(50%-140px)] no-scrollbar">
+    <div className="snap-x md:snap-mandatory flex lg:flex-row flex-col h-full overflow-x-auto px-[calc(50%-140px)] no-scrollbar">
       {projects.map((project) => {
         const title = project.projectID;
 
         return (
           <Card
             key={project.projectID}
-            className="w-[350px] lg:w-[1000px] h-[500px] lg:h-[500px] text-moss bg-moss rounded-none lg:mx-20 my-10 shadow-none snap-center bg-fixed opacity-100 transition duration-300 ease-in-out "
+            className="w-[350px] lg:w-[1000px] h-[450px] lg:h-[500px] text-moss bg-moss rounded-none lg:mx-20 my-10 shadow-none snap-center bg-fixed opacity-100 transition duration-300 ease-in-out "
           >
             <CardHeader className="bg-moss shadow-none rounded-none p-0 m-0 ">
               <Link
@@ -40,7 +40,7 @@ const ProjectCards = () => {
                   <img
                     src={project.projectImage}
                     alt="image 1"
-                    className=" relative"
+                    className=" object-cover relative"
                   />
                 </div>
               </Link>
