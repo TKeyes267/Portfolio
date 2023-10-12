@@ -80,13 +80,17 @@ const Contact = () => {
                 Designed and built by Tom Keyes, 2023
               </Typography>
             </ul>
-            <a
-              href="#homePage"
-              className="flex items-end justify-end transition-colors text-teal hover:text-teal hover:bg-moss scroll-smooth	"
-            >
-              <span className="sr-only">Scroll down to About section</span>
-              <ArrowUpwardSharpIcon fontSize="large" />
-            </a>
+            <div className="flex justify-end">
+              <a
+                href="#homePage"
+                className="flex items-end justify-end transition-colors scroll-smooth	"
+              >
+                <span className="sr-only">Scroll down to About section</span>
+                <div className=" text-teal hover:text-moss hover:bg-teal">
+                  <ArrowUpwardSharpIcon fontSize="large" />
+                </div>
+              </a>
+            </div>
           </div>
         </div>
       </div>

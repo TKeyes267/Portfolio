@@ -1,32 +1,6 @@
 export const projectData = [
   {
     projectID: 0,
-    projectTitle: "Floater",
-    projectURL: "Floater",
-    projectSummary:
-      "Floater allows you to find swimming sites and check they are safe. It features an interative map and a reviewing system. ",
-    projectDescription:
-      "Floater is a web app that allows users to find wildswimming sites through geolocation or a post-code search. Users are able to review and comment on specific sites and can using a dynamic map, built with Leaflet.js, see wether the site is near any sewage over flow sites. This project pulls data from APIs including the Enviroment Agency and the Rivers Trust. This project was a group effort as part of a final porject on my software development bootcamp and was created in one week",
-    projectFeatureTitle1: "Wild Swimming Discovery: ",
-    projectFeature1:
-      "Floater connects nature enthusiasts with hidden gems for wild swimming adventures in lakes, rivers, and the sea. Users can easily locate these serene spots and evaluate their suitability for a dip. ",
-    projectFeatureTitle2: "Environmental Awareness:  ",
-    projectFeature2:
-      "Beyond just finding beautiful swimming locations, our app empowers users with essential information. It checks if the chosen sites are polluted or located near sewage overflow points. ",
-    projectFeatureTitle3: "Interactive Map Interface: ",
-    projectFeature3:
-      "We integrated Leaflet to craft an interactive map, enriched with markers for swimming sites and sewage overflow locations. Users can explore sites in their vicinity or search by postcode. ",
-    projectFeatureTitle4: "Detailed Site Pages: ",
-    projectFeature4:
-      "Each swimming location is accompanied by a dedicated page, allowing users to share their experiences through comments and ratings. Users can also access comprehensive information about the site. ",
-    projectStack: "Typescript, React, HTML, CSS, Leaflet.js, Mongo.DB",
-    projectLink: "https://github.com/TKeyes267/wild-swimming-appyes267",
-    projectGitHubLink: "https://github.com/TKeyes267/AirPollutionChecker",
-    projectImage: "src/assets/images/Portfolio Mockup Floatr Mobile copy 2.jpg",
-    projectImage2: "src/assets/images/Portfolio Mockup Floatr Laptop copy.jpg",
-  },
-  {
-    projectID: 1,
     projectTitle: "UK Air Pollution Checker",
     projectURL: "Air_Pollution_Checker",
     projectSummary:
@@ -52,6 +26,32 @@ export const projectData = [
       "src/assets/images/Portfolio Mockup AirPollution Mobile copy 2.jpg",
     projectImage2:
       "src/assets/images/Portfolio Mockup Air Pollution Laptop copy.jpg",
+  },
+  {
+    projectID: 1,
+    projectTitle: "Floater",
+    projectURL: "Floater",
+    projectSummary:
+      "Floater allows you to find swimming sites and check they are safe. It features an interative map and a reviewing system. ",
+    projectDescription:
+      "Floater is a web app that allows users to find wildswimming sites through geolocation or a post-code search. Users are able to review and comment on specific sites and can using a dynamic map, built with Leaflet.js, see wether the site is near any sewage over flow sites. This project pulls data from APIs including the Enviroment Agency and the Rivers Trust. This project was a group effort as part of a final porject on my software development bootcamp and was created in one week",
+    projectFeatureTitle1: "Wild Swimming Discovery: ",
+    projectFeature1:
+      "Floater connects nature enthusiasts with hidden gems for wild swimming adventures in lakes, rivers, and the sea. Users can easily locate these serene spots and evaluate their suitability for a dip. ",
+    projectFeatureTitle2: "Environmental Awareness:  ",
+    projectFeature2:
+      "Beyond just finding beautiful swimming locations, our app empowers users with essential information. It checks if the chosen sites are polluted or located near sewage overflow points. ",
+    projectFeatureTitle3: "Interactive Map Interface: ",
+    projectFeature3:
+      "We integrated Leaflet to craft an interactive map, enriched with markers for swimming sites and sewage overflow locations. Users can explore sites in their vicinity or search by postcode. ",
+    projectFeatureTitle4: "Detailed Site Pages: ",
+    projectFeature4:
+      "Each swimming location is accompanied by a dedicated page, allowing users to share their experiences through comments and ratings. Users can also access comprehensive information about the site. ",
+    projectStack: "Typescript, React, HTML, CSS, Leaflet.js, Mongo.DB",
+    projectLink: "https://floater-wildswimming.netlify.app/",
+    projectGitHubLink: "https://github.com/TKeyes267/wild-swimming-appyes267",
+    projectImage: "src/assets/images/Portfolio Mockup Floatr Mobile copy 2.jpg",
+    projectImage2: "src/assets/images/Portfolio Mockup Floatr Laptop copy.jpg",
   },
   {
     projectID: 2,

@@ -4,6 +4,7 @@ import { Typography } from "@material-tailwind/react";
 import { projectData } from "../data/projectData";
 import { Link } from "react-router-dom";
 import LaunchSharpIcon from "@mui/icons-material/LaunchSharp";
+import Header from "./Header";
 
 const SingleProject = () => {
   const location = useLocation();
@@ -27,6 +28,7 @@ const SingleProject = () => {
 
   return (
     <main>
+      <Header />
       <div className="bg-moss h-[full] w-[100dvw] ">
         <div className="bg-teal p-5 md:p-10">
           <Typography
