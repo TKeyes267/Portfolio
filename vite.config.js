@@ -5,7 +5,7 @@ import react from "@vitejs/plugin-react";
 export default defineConfig(({ command }) => {
   const config = {
     plugins: [react()],
-    base: "/Portfolio/",
+    base: "/Portfolio/dist/",
   };
 
   if (command !== "serve") {
@@ -14,5 +14,3 @@ export default defineConfig(({ command }) => {
 
   return config;
 });
-
-//base: "https://saram7619.github.io/deploying-vite-project-example/"
