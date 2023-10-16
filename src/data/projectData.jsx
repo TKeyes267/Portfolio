@@ -22,8 +22,14 @@ export const projectData = [
     projectStack: "Typescript, React, Bootstrap, HTML",
     projectLink: "https://uk-air-pollution-checker.netlify.app",
     projectGitHubLink: "https://github.com/TKeyes267/AirPollutionChecker",
-    projectImage: "src/assets/images/AirPollutionMobile2.jpg",
-    projectImage2: "src/assets/images/AirPollutionLaptop.jpg",
+    projectImage: new URL(
+      "/src/assets/images/AirPollutionMobile2.jpg",
+      import.meta.url
+    ).href,
+    projectImage2: new URL(
+      "/src/assets/images/AirPollutionLaptop.jpg",
+      import.meta.url
+    ).href,
   },
   {
     projectID: 1,
@@ -48,8 +54,14 @@ export const projectData = [
     projectStack: "Typescript, React, HTML, CSS, Leaflet.js, Mongo.DB",
     projectLink: "https://floater-wildswimming.netlify.app/",
     projectGitHubLink: "https://github.com/TKeyes267/wild-swimming-appyes267",
-    projectImage: "src/assets/images/FloatrMobile2.jpg",
-    projectImage2: "src/assets/images/FloatrLaptop1.jpg",
+    projectImage: new URL(
+      "/src/assets/images/FloatrMobile2.jpg",
+      import.meta.url
+    ).href,
+    projectImage2Flaptop: new URL(
+      "/src/assets/images/FloatrLaptop1.jpg",
+      import.meta.url
+    ).href,
   },
   {
     projectID: 2,
@@ -75,8 +87,14 @@ export const projectData = [
     projectStack: "Javascript, React, HTML, CSS",
     projectLink: "https://tkncnews.netlify.app/articles",
     projectGitHubLink: "https://github.com/TKeyes267/nc-news-frontend",
-    projectImage: "src/assets/images/AncoatsPostLaptop1.jpg",
-    projectImage2: "src/assets/images/AncoatsPostLaptop1.jpg",
+    projectImage: new URL(
+      "/src/assets/images/AncoatsPostLaptop1.jpg",
+      import.meta.url
+    ).href,
+    projectImage2: new URL(
+      "/src/assets/images/AncoatsPostLaptop1.jpg",
+      import.meta.url
+    ).href,
   },
   {
     projectID: 3,
@@ -102,7 +120,13 @@ export const projectData = [
       "Javascript, Express.js, Node.js, PostgreSQL, Jest, Supertest",
     projectLink: "https://nc-news-zypp.onrender.com",
     projectGitHubLink: "https://github.com/TKeyes267/NC-news-backend",
-    projectImage: "src/assets/images/AncoatsPostBackendLaptop.jpg",
-    projectImage2: "src/assets/images/AncoatsPostBackendLaptop.jpg",
+    projectImage: new URL(
+      "/src/assets/images/AncoatsPostBackendLaptop.jpg",
+      import.meta.url
+    ).href,
+    projectImage2: new URL(
+      "/src/assets/images/AncoatsPostBackendLaptop.jpg",
+      import.meta.url
+    ).href,
   },
 ];

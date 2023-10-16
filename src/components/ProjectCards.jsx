@@ -12,6 +12,8 @@ import {
 
 import LaunchSharpIcon from "@mui/icons-material/LaunchSharp";
 
+import IMAGES from "../assets/images/images";
+
 const ProjectCards = () => {
   const [projects, setProjects] = useState([]);
   const [isLoading, setIsLoading] = useState(false);
@@ -24,6 +26,8 @@ const ProjectCards = () => {
     <div className="snap-x md:snap-mandatory flex lg:flex-row flex-col h-full overflow-x-auto px-[calc(50%-140px)] no-scrollbar">
       {projects.map((project) => {
         const title = project.projectID;
+
+        console.log(IMAGES);
 
         return (
           <Card

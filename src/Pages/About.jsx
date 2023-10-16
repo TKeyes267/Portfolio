@@ -8,7 +8,14 @@ import {
   Typography,
 } from "@material-tailwind/react";
 
-import IMAGES from "src/assets/images/images.jsx";
+// import Head from "src/assets/images/HeadshotPortfolio1.jpg";
+
+import IMAGES from "../assets/images/images";
+
+// const Headshot = new URL(
+//   "/src/assets/images/HeadshotPortfolio1.jpg",
+//   import.meta.url
+// ).href;
 
 const About = () => {
   return (
@@ -43,9 +50,9 @@ const About = () => {
         </div>
         <div className="hidden md:flex flex-col justify-center">
           <img
-            src={IMAGES.image1}
+            src={IMAGES.Headshot}
             alt="Headshot"
-            className=" h-full w-full object-cover object-right"
+            className=" h-full w-full object-cover object-center"
           />
         </div>
       </div>
