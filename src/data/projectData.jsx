@@ -22,10 +22,8 @@ export const projectData = [
     projectStack: "Typescript, React, Bootstrap, HTML",
     projectLink: "https://uk-air-pollution-checker.netlify.app",
     projectGitHubLink: "https://github.com/TKeyes267/AirPollutionChecker",
-    projectImage:
-      "src/assets/images/Portfolio Mockup AirPollution Mobile copy 2.jpg",
-    projectImage2:
-      "src/assets/images/Portfolio Mockup Air Pollution Laptop copy.jpg",
+    projectImage: "src/assets/images/AirPollutionMobile2.jpg",
+    projectImage2: "src/assets/images/AirPollutionLaptop.jpg",
   },
   {
     projectID: 1,
@@ -50,8 +48,8 @@ export const projectData = [
     projectStack: "Typescript, React, HTML, CSS, Leaflet.js, Mongo.DB",
     projectLink: "https://floater-wildswimming.netlify.app/",
     projectGitHubLink: "https://github.com/TKeyes267/wild-swimming-appyes267",
-    projectImage: "src/assets/images/Portfolio Mockup Floatr Mobile copy 2.jpg",
-    projectImage2: "src/assets/images/Portfolio Mockup Floatr Laptop copy.jpg",
+    projectImage: "src/assets/images/FloatrMobile2.jpg",
+    projectImage2: "src/assets/images/FloatrLaptop1.jpg",
   },
   {
     projectID: 2,
@@ -77,10 +75,8 @@ export const projectData = [
     projectStack: "Javascript, React, HTML, CSS",
     projectLink: "https://tkncnews.netlify.app/articles",
     projectGitHubLink: "https://github.com/TKeyes267/nc-news-frontend",
-    projectImage:
-      "src/assets/images/Portfolio Mockup Ancoats Post Laptop copy.jpg",
-    projectImage2:
-      "src/assets/images/Portfolio Mockup Ancoats Post Laptop copy.jpg",
+    projectImage: "src/assets/images/AncoatsPostLaptop1.jpg",
+    projectImage2: "src/assets/images/AncoatsPostLaptop1.jpg",
   },
   {
     projectID: 3,
@@ -106,9 +102,7 @@ export const projectData = [
       "Javascript, Express.js, Node.js, PostgreSQL, Jest, Supertest",
     projectLink: "https://nc-news-zypp.onrender.com",
     projectGitHubLink: "https://github.com/TKeyes267/NC-news-backend",
-    projectImage:
-      "src/assets/images/Portfolio Mockup Ancoats Post Backend Laptop copy.jpg",
-    projectImage2:
-      "src/assets/images/Portfolio Mockup Ancoats Post Backend Laptop copy.jpg",
+    projectImage: "src/assets/images/AncoatsPostBackendLaptop.jpg",
+    projectImage2: "src/assets/images/AncoatsPostBackendLaptop.jpg",
   },
 ];

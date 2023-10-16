@@ -41,7 +41,7 @@ const About = () => {
         </div>
         <div className="hidden md:flex flex-col justify-center">
           <img
-            src="src/assets/images/Headshot Portfolio 1.jpg"
+            src="/src/assets/images/HeadshotPortfolio1.jpg"
             alt="image 1"
             className=" h-full w-full object-cover object-right"
           />
