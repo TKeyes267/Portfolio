@@ -8,6 +8,8 @@ import {
   Typography,
 } from "@material-tailwind/react";
 
+import IMAGES from "src/assets/images/images.jsx";
+
 const About = () => {
   return (
     <main className="w-[100dvw] md:h-[100dvh] no-scrollbar h-full bg-moss">
@@ -41,8 +43,8 @@ const About = () => {
         </div>
         <div className="hidden md:flex flex-col justify-center">
           <img
-            src="/src/assets/images/HeadshotPortfolio1.jpg"
-            alt="image 1"
+            src={IMAGES.image1}
+            alt="Headshot"
             className=" h-full w-full object-cover object-right"
           />
         </div>
