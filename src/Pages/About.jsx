@@ -8,14 +8,7 @@ import {
   Typography,
 } from "@material-tailwind/react";
 
-// import Head from "src/assets/images/HeadshotPortfolio1.jpg";
-
 import IMAGES from "../assets/images/images";
-
-// const Headshot = new URL(
-//   "/src/assets/images/HeadshotPortfolio1.jpg",
-//   import.meta.url
-// ).href;
 
 const About = () => {
   return (

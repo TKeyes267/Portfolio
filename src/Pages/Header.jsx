@@ -1,6 +1,7 @@
-import { Navbar, Collapse, Typography, Button } from "@material-tailwind/react";
+import { Typography, Button } from "@material-tailwind/react";
+import { Link } from "react-router-dom";
 
-import { useState, useEffect } from "react";
+import { useState } from "react";
 
 import MenuSharpIcon from "@mui/icons-material/MenuSharp";
 import MenuOpenSharpIcon from "@mui/icons-material/MenuOpenSharp";
@@ -11,18 +12,18 @@ function NavList() {
   return (
     <div className="w-[100dvw] h-[100dvh] flex">
       <div className="grid grid-cols-2 h-fit w-full m-12 self-center">
-        <ul className=" h-full flex flex-col flex-wrap origin-center gap-16 md:pl-40 ">
+        <ul className="h-full flex flex-col flex-wrap origin-center gap-16 md:pl-40 ">
           <Typography
             as="li"
             variant="small"
             className="h-fit font-light text-teal transition ease-in-out hover:-translate-x-20 text-6xl md:text-8xl content-center font-tit tracking-wide"
           >
-            <a
-              href="/#aboutPage"
+            <Link
+              href="Portfolio/#aboutPage"
               className="flex items-center transition-colors"
             >
               About
-            </a>
+            </Link>
           </Typography>
           <Typography
             as="li"
@@ -30,12 +31,12 @@ function NavList() {
             color="white"
             className="h-fit font-light text-teal transition ease-in-out hover:-translate-x-20 text-6xl md:text-8xl content-centerm font-tit tracking-wide"
           >
-            <a
-              href="/#projectPage"
+            <Link
+              href="Portfolio/#projectPage"
               className="flex items-center transition-colors"
             >
               Projects
-            </a>
+            </Link>
           </Typography>
           <Typography
             as="li"
@@ -43,12 +44,12 @@ function NavList() {
             color="white"
             className="h-fit font-light text-teal transition ease-in-out hover:-translate-x-20 text-6xl md:text-8xl content-center font-tit tracking-wide"
           >
-            <a
-              href="/#skillsPage"
+            <Link
+              href="Portfolio/#skillsPage"
               className="flex items-center transition-colors"
             >
               Skills
-            </a>
+            </Link>
           </Typography>
           <Typography
             as="li"
@@ -56,56 +57,56 @@ function NavList() {
             color="white"
             className="h-fit font-light text-teal transition ease-in-out hover:-translate-x-20 text-6xl md:text-8xl content-center font-tit tracking-wide"
           >
-            <a
-              href="/#contactPage"
+            <Link
+              href="Portfolio/#contactPage"
               className="flex items-center transition-colors"
             >
               Contact
-            </a>
+            </Link>
           </Typography>
         </ul>
-        <ul className="text-forest h-80 pl-40 md:flex flex-col justify-center self-center ml-12 gap-12 hidden  ">
+        <ul className="text-forest h-80 pl-40 sm:flex flex-col justify-center self-center ml-12 gap-12 hidden  ">
           <Typography
             as="li"
             color="white"
             className=" font-light text-teal text-xl font-tit tracking-wide"
           >
-            <a
+            <Link
               target="_blank"
               href="https://www.linkedin.com/in/tom-keyes-5abb3815a/"
               className="gap-12 flex flex-row items-center "
             >
               <i className="devicon-linkedin-plain "></i>
               LinkedIn
-            </a>
+            </Link>
           </Typography>
           <Typography
             as="li"
             color="white"
             className=" font-light text-teal text-xl font-tit tracking-wide"
           >
-            <a
+            <Link
               target="_blank"
               href="https://github.com/TKeyes267"
               className="gap-12 flex flex-row items-center "
             >
               <i className="devicon-github-original"></i>
               Github
-            </a>
+            </Link>
           </Typography>
           <Typography
             as="li"
             color="white"
             className=" font-light text-teal text-xl font-tit tracking-wide"
           >
-            <a
+            <Link
               target="_blank"
               href="https://tomkeyes26@gmail.com"
               className="gap-12 flex flex-row items-center"
             >
               <MailOutlineSharpIcon fontSize="medium" />
               tomkeyes26@gmail.com
-            </a>
+            </Link>
           </Typography>
           <Typography
             as="li"
@@ -167,12 +168,12 @@ const Header = () => {
               variant="small"
               className="h-fit font-light text-moss md:text-2xl content-center font-tit tracking-wide hover:underline"
             >
-              <a
+              <Link
                 href="/#aboutPage"
                 className="flex items-center transition-colors"
               >
                 About
-              </a>
+              </Link>
             </Typography>
             <Typography
               as="li"
@@ -180,12 +181,12 @@ const Header = () => {
               color="white"
               className="h-fit font-light text-moss md:text-2xl content-centerm font-tit tracking-wide hover:underline"
             >
-              <a
+              <Link
                 href="/#projectPage"
                 className="flex items-center transition-colors"
               >
                 Projects
-              </a>
+              </Link>
             </Typography>
             <Typography
               as="li"
@@ -193,12 +194,12 @@ const Header = () => {
               color="white"
               className="h-fit font-light text-moss md:text-2xl content-center font-tit tracking-wide hover:underline"
             >
-              <a
+              <Link
                 href="/#skillsPage"
                 className="flex items-center transition-colors"
               >
                 Skills
-              </a>
+              </Link>
             </Typography>
             <Typography
               as="li"
@@ -206,12 +207,12 @@ const Header = () => {
               color="white"
               className="h-fit font-light text-moss md:text-2xl content-center font-tit tracking-wide hover:underline"
             >
-              <a
+              <Link
                 href="/#contactPage"
                 className="flex items-center transition-colors"
               >
                 Contact
-              </a>
+              </Link>
             </Typography>
           </ul>
         </div>

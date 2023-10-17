@@ -27,8 +27,6 @@ const ProjectCards = () => {
       {projects.map((project) => {
         const title = project.projectID;
 
-        console.log(IMAGES);
-
         return (
           <Card
             key={project.projectID}
