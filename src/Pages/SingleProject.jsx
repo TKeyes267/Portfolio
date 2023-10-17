@@ -4,7 +4,6 @@ import { Typography } from "@material-tailwind/react";
 import { projectData } from "../data/projectData";
 import { Link } from "react-router-dom";
 import LaunchSharpIcon from "@mui/icons-material/LaunchSharp";
-import Header from "./Header";
 
 const SingleProject = () => {
   const location = useLocation();
@@ -28,7 +27,6 @@ const SingleProject = () => {
 
   return (
     <main>
-      <Header />
       <div className="bg-moss h-[full] w-[100dvw] ">
         <div className="bg-teal p-5 md:p-10">
           <Typography
@@ -42,7 +40,7 @@ const SingleProject = () => {
         <div className="pt-5 md:pt-10 ">
           <Typography
             color="blue"
-            className=" text-teal font-normal text-2xl md:text-4xl font-tit px-10 "
+            className=" text-teal font-normal text-2xl md:text-3xl font-tit px-20 "
           >
             {project.projectDescription}
           </Typography>

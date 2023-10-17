@@ -54,7 +54,7 @@ const Contact = () => {
               >
                 <a
                   target="_blank"
-                  href="https://tomkeyes26@gmail.com"
+                  href="mailto:tomkeyes26@gmail.com.com"
                   className="gap-10 flex flex-row items-center"
                 >
                   <span className="sr-only">Email</span>

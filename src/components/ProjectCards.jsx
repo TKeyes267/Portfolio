@@ -12,8 +12,6 @@ import {
 
 import LaunchSharpIcon from "@mui/icons-material/LaunchSharp";
 
-import IMAGES from "../assets/images/images";
-
 const ProjectCards = () => {
   const [projects, setProjects] = useState([]);
   const [isLoading, setIsLoading] = useState(false);

@@ -18,12 +18,12 @@ function NavList() {
             variant="small"
             className="h-fit font-light text-teal transition ease-in-out hover:-translate-x-20 text-6xl md:text-8xl content-center font-tit tracking-wide"
           >
-            <Link
-              href="Portfolio/#aboutPage"
+            <a
+              href="#aboutPage"
               className="flex items-center transition-colors"
             >
               About
-            </Link>
+            </a>
           </Typography>
           <Typography
             as="li"
@@ -31,12 +31,12 @@ function NavList() {
             color="white"
             className="h-fit font-light text-teal transition ease-in-out hover:-translate-x-20 text-6xl md:text-8xl content-centerm font-tit tracking-wide"
           >
-            <Link
-              href="Portfolio/#projectPage"
+            <a
+              href="#projectPage"
               className="flex items-center transition-colors"
             >
               Projects
-            </Link>
+            </a>
           </Typography>
           <Typography
             as="li"
@@ -44,12 +44,12 @@ function NavList() {
             color="white"
             className="h-fit font-light text-teal transition ease-in-out hover:-translate-x-20 text-6xl md:text-8xl content-center font-tit tracking-wide"
           >
-            <Link
-              href="Portfolio/#skillsPage"
+            <a
+              href="#skillsPage"
               className="flex items-center transition-colors"
             >
               Skills
-            </Link>
+            </a>
           </Typography>
           <Typography
             as="li"
@@ -57,12 +57,12 @@ function NavList() {
             color="white"
             className="h-fit font-light text-teal transition ease-in-out hover:-translate-x-20 text-6xl md:text-8xl content-center font-tit tracking-wide"
           >
-            <Link
-              href="Portfolio/#contactPage"
+            <a
+              href="#contactPage"
               className="flex items-center transition-colors"
             >
               Contact
-            </Link>
+            </a>
           </Typography>
         </ul>
         <ul className="text-forest h-80 pl-40 sm:flex flex-col justify-center self-center ml-12 gap-12 hidden  ">
@@ -71,42 +71,42 @@ function NavList() {
             color="white"
             className=" font-light text-teal text-xl font-tit tracking-wide"
           >
-            <Link
+            <a
               target="_blank"
               href="https://www.linkedin.com/in/tom-keyes-5abb3815a/"
               className="gap-12 flex flex-row items-center "
             >
               <i className="devicon-linkedin-plain "></i>
               LinkedIn
-            </Link>
+            </a>
           </Typography>
           <Typography
             as="li"
             color="white"
             className=" font-light text-teal text-xl font-tit tracking-wide"
           >
-            <Link
+            <a
               target="_blank"
               href="https://github.com/TKeyes267"
               className="gap-12 flex flex-row items-center "
             >
               <i className="devicon-github-original"></i>
               Github
-            </Link>
+            </a>
           </Typography>
           <Typography
             as="li"
             color="white"
             className=" font-light text-teal text-xl font-tit tracking-wide"
           >
-            <Link
+            <a
               target="_blank"
-              href="https://tomkeyes26@gmail.com"
+              href="mailto:tomkeyes26@gmail.com"
               className="gap-12 flex flex-row items-center"
             >
               <MailOutlineSharpIcon fontSize="medium" />
               tomkeyes26@gmail.com
-            </Link>
+            </a>
           </Typography>
           <Typography
             as="li"
@@ -161,19 +161,19 @@ const Header = () => {
         )}
       </div>
       <div className="fixed z-50">
-        <div className="bg-teal pr-10 h-[5dvh] w-screen lg:flex flex-row justify-end hidden ">
+        <div className="bg-forest pr-10 h-[5dvh] w-screen lg:flex flex-row justify-end hidden ">
           <ul className=" h-full flex flex-row flex-wrap origin-center items-center gap-16 md:pl-40">
             <Typography
               as="li"
               variant="small"
               className="h-fit font-light text-moss md:text-2xl content-center font-tit tracking-wide hover:underline"
             >
-              <Link
-                href="/#aboutPage"
+              <a
+                href="#aboutPage"
                 className="flex items-center transition-colors"
               >
                 About
-              </Link>
+              </a>
             </Typography>
             <Typography
               as="li"
@@ -181,12 +181,12 @@ const Header = () => {
               color="white"
               className="h-fit font-light text-moss md:text-2xl content-centerm font-tit tracking-wide hover:underline"
             >
-              <Link
-                href="/#projectPage"
+              <a
+                href="#projectPage"
                 className="flex items-center transition-colors"
               >
                 Projects
-              </Link>
+              </a>
             </Typography>
             <Typography
               as="li"
@@ -194,12 +194,12 @@ const Header = () => {
               color="white"
               className="h-fit font-light text-moss md:text-2xl content-center font-tit tracking-wide hover:underline"
             >
-              <Link
-                href="/#skillsPage"
+              <a
+                href="#skillsPage"
                 className="flex items-center transition-colors"
               >
                 Skills
-              </Link>
+              </a>
             </Typography>
             <Typography
               as="li"
@@ -207,12 +207,12 @@ const Header = () => {
               color="white"
               className="h-fit font-light text-moss md:text-2xl content-center font-tit tracking-wide hover:underline"
             >
-              <Link
-                href="/#contactPage"
+              <a
+                href="#contactPage"
                 className="flex items-center transition-colors"
               >
                 Contact
-              </Link>
+              </a>
             </Typography>
           </ul>
         </div>

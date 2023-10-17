@@ -21,12 +21,12 @@ const SkillCards = () => {
         return (
           <Card
             key={skill.skillID}
-            className="w-30 rounded-none shadow-none  flex justify-center items-center bg-silver"
+            className="w-30 rounded-none shadow-none flex justify-center items-center bg-silver"
           >
-            <CardBody className="p-0  rounded-none">
+            <CardBody className="p-0 rounded-none">
               <i className={skill.skillLogo}></i>
             </CardBody>
-            <Typography className="py-4 md:py-10 text-md md:text-2xl text-forest font-tit">
+            <Typography className="py-4 md:py-8 text-md md:text-2xl text-forest font-tit">
               {skill.skillName}
             </Typography>
           </Card>

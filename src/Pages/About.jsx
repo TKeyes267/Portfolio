@@ -1,12 +1,4 @@
-import {
-  Timeline,
-  TimelineItem,
-  TimelineConnector,
-  TimelineHeader,
-  TimelineIcon,
-  TimelineBody,
-  Typography,
-} from "@material-tailwind/react";
+import { Typography } from "@material-tailwind/react";
 
 import IMAGES from "../assets/images/images";
 
@@ -25,10 +17,14 @@ const About = () => {
                 sustainable solutions. As a designer and developer, I believe
                 that technology should help us to make more informed decisions
                 and let us communicate across boundaries. With an insatiable
-                thirst for learning new skills, I thrive on tackling new
+                thirst for learning new skills, I thrive when tackling new
                 challenges.
               </Typography>
-
+              <img
+                src={IMAGES.Headshot}
+                alt="Headshot"
+                className="visible md:hidden h-full w-full object-cover object-center pb-10"
+              />
               <Typography className="text-xl md:text-2xl font-tit pb-10 md:pb-10 leading-loose">
                 I'm committed to using my skills to communicate pressing
                 environmental issues and leveraging technology for good. When
