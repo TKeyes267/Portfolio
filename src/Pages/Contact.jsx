@@ -4,13 +4,14 @@ import MailOutlineSharpIcon from "@mui/icons-material/MailOutlineSharp";
 import LocalPhoneSharpIcon from "@mui/icons-material/LocalPhoneSharp";
 import CopyrightIcon from "@mui/icons-material/Copyright";
 import ArrowUpwardSharpIcon from "@mui/icons-material/ArrowUpwardSharp";
+import LocationCitySharpIcon from "@mui/icons-material/LocationCitySharp";
 
 const Contact = () => {
   return (
     <main>
       <div className="w-[100dvw] h-[100dvh] grid grid-rows-2 bg-teal">
         <div className="p-5 md:pl-10 md:py-10 flex flex-col justify-center bg-teal">
-          <Typography className="w-full text-9xl md:text-[12rem] xl:text-[15rem] text-moss font-tit flex ">
+          <Typography className="w-full text-8xl md:text-[12rem] xl:text-[15rem] text-moss font-tit flex ">
             Get in touch
           </Typography>
         </div>
@@ -69,6 +70,14 @@ const Contact = () => {
               >
                 <LocalPhoneSharpIcon fontSize="medium" />
                 +44 744 922 1752
+              </Typography>
+              <Typography
+                as="li"
+                color="white"
+                className="gap-10 flex flex-row items-center font-light text-teal text-md md:text-xl font-tit"
+              >
+                <LocationCitySharpIcon fontSize="medium" />
+                Manchester, UK
               </Typography>
 
               <Typography

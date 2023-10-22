@@ -9,6 +9,7 @@ import Skills from "../Pages/Skills";
 function Main() {
   return (
     <main>
+      <div id="pageTop"></div>
       <Header />
       <div className="h-screen w-screen overflow-y-scroll overflow-x-hidden md:snap-mandatory snap-y scroll-smooth">
         <section
@@ -31,7 +32,7 @@ function Main() {
         </section>
         <section
           id="skillsPage"
-          className="h-[100dvh] w-screen relative md:snap-mandatory snap-start scroll-smooth overflow-auto z-30"
+          className=" w-screen relative md:snap-mandatory snap-start scroll-smooth overflow-auto z-30"
         >
           <Skills />
         </section>

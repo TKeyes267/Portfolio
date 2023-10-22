@@ -1,10 +1,4 @@
-import {
-  Typography,
-  Card,
-  CardHeader,
-  CardBody,
-  CardFooter,
-} from "@material-tailwind/react";
+import { Typography, Card, CardBody } from "@material-tailwind/react";
 import { useState, useEffect } from "react";
 import { skillData } from "../data/skillData";
 

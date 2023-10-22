@@ -8,7 +8,7 @@ const About = () => {
       <div className="md:grid grid-cols-2">
         <div className="bg-moss md:h-[100dvh] h-full ">
           <div className="block ml-auto mr-auto text-teal">
-            <Typography className="text-6xl md:text-8xl font-tit px-5 md:px-10 pt-5 md:pt-20 pb-10 md:pb-20 tracking-wide">
+            <Typography className="text-6xl md:text-8xl font-tit px-5 md:px-10 md:pt-20 py-10 md:pb-20 tracking-wide">
               About
             </Typography>
             <div className="px-5 md:px-10 ">
