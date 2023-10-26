@@ -12,11 +12,11 @@ function NavList() {
   return (
     <div className="w-[100dvw] h-[100dvh] flex">
       <div className="grid grid-cols-2 h-fit w-full m-12 self-center">
-        <ul className="h-full flex flex-col flex-wrap origin-center gap-16 md:pl-40 ">
+        <ul className="h-full flex flex-col flex-wrap origin-center gap-28 md:gap-40 lg:pl-40 ">
           <Typography
             as="li"
             variant="small"
-            className="h-fit font-light text-teal transition ease-in-out hover:-translate-x-20 text-6xl md:text-8xl content-center font-tit tracking-wide"
+            className="h-fit font-light text-teal transition ease-in-out hover:-translate-x-20 text-6xl lg:text-8xl content-center font-tit tracking-wide"
           >
             <a
               href="#aboutPage"
@@ -29,7 +29,7 @@ function NavList() {
             as="li"
             variant="small"
             color="white"
-            className="h-fit font-light text-teal transition ease-in-out hover:-translate-x-20 text-6xl md:text-8xl content-centerm font-tit tracking-wide"
+            className="h-fit font-light text-teal transition ease-in-out hover:-translate-x-20 text-6xl lg:text-8xl content-centerm font-tit tracking-wide"
           >
             <a
               href="#projectPage"
@@ -42,7 +42,7 @@ function NavList() {
             as="li"
             variant="small"
             color="white"
-            className="h-fit font-light text-teal transition ease-in-out hover:-translate-x-20 text-6xl md:text-8xl content-center font-tit tracking-wide"
+            className="h-fit font-light text-teal transition ease-in-out hover:-translate-x-20 text-6xl lg:text-8xl content-center font-tit tracking-wide"
           >
             <a
               href="#skillsPage"
@@ -55,7 +55,7 @@ function NavList() {
             as="li"
             variant="small"
             color="white"
-            className="h-fit font-light text-teal transition ease-in-out hover:-translate-x-20 text-6xl md:text-8xl content-center font-tit tracking-wide"
+            className="h-fit font-light text-teal transition ease-in-out hover:-translate-x-20 text-6xl lg:text-8xl content-center font-tit tracking-wide"
           >
             <a
               href="#contactPage"
@@ -65,7 +65,7 @@ function NavList() {
             </a>
           </Typography>
         </ul>
-        <ul className="text-forest h-80 pl-40 sm:flex flex-col justify-center self-center ml-12 gap-12 hidden  ">
+        <ul className="text-forest h-80 pl-10 sm:flex flex-col justify-center self-center ml-8 gap-12 md:gap-48 hidden  ">
           <Typography
             as="li"
             color="white"
@@ -136,7 +136,7 @@ const Header = () => {
           >
             <div className="h-screen w-screen flex flex-row-reverse justify-end ">
               <MenuOpenSharpIcon
-                className="m-2.5 md:m-10 w-12 h-12 text-teal bg-moss"
+                className="m-2.5 md:m-5 w-8 h-8 text-teal bg-moss"
                 strokeWidth={4}
                 viewBox="0 0 24 24"
                 fontSize="large"
@@ -152,7 +152,7 @@ const Header = () => {
             onClick={() => setOpenNav(!openNav)}
           >
             <MenuSharpIcon
-              className="m-2.5 md:m-10 w-12 h-12 text-moss bg-transparent"
+              className="m-2.5 md:m-5 w-8 h-8 text-moss bg-transparent"
               strokeWidth={4}
               viewBox="0 0 24 24"
               fontSize="large"
@@ -166,7 +166,7 @@ const Header = () => {
             <Typography
               as="li"
               variant="small"
-              className="h-fit font-light text-moss md:text-2xl content-center font-tit tracking-wide hover:underline"
+              className="h-fit font-light text-moss md:text-2xl content-center font-tit tracking-wide hover:font-bold"
             >
               <a
                 href="#aboutPage"
@@ -179,7 +179,7 @@ const Header = () => {
               as="li"
               variant="small"
               color="white"
-              className="h-fit font-light text-moss md:text-2xl content-centerm font-tit tracking-wide hover:underline"
+              className="h-fit font-light text-moss md:text-2xl content-centerm font-tit tracking-wide hover:font-bold"
             >
               <a
                 href="#projectPage"
@@ -192,7 +192,7 @@ const Header = () => {
               as="li"
               variant="small"
               color="white"
-              className="h-fit font-light text-moss md:text-2xl content-center font-tit tracking-wide hover:underline"
+              className="h-fit font-light text-moss md:text-2xl content-center font-tit tracking-wide hover:font-bold"
             >
               <a
                 href="#skillsPage"
@@ -205,7 +205,7 @@ const Header = () => {
               as="li"
               variant="small"
               color="white"
-              className="h-fit font-light text-moss md:text-2xl content-center font-tit tracking-wide hover:underline"
+              className="h-fit font-light text-moss md:text-2xl content-center font-tit tracking-wide hover:font-bold"
             >
               <a
                 href="#contactPage"

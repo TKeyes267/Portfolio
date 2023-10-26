@@ -10,7 +10,7 @@ const SkillCards = () => {
   });
 
   return (
-    <div className="grid grid-cols-3 md:grid-cols-6 gap-5 md:gap-15 justify-items-center place-content-around  bg-silver text-teal pb-10 md:pb-0 ">
+    <div className="grid grid-cols-3 lg:grid-cols-6 gap-5 md:gap-15 justify-items-center place-content-around  bg-silver text-teal pb-10 lg:pb-0 ">
       {skills.map((skill) => {
         return (
           <Card
