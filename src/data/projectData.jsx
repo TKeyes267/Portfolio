@@ -38,7 +38,7 @@ export const projectData = [
     projectSummary:
       "Floater allows you to find swimming sites and check they are safe. It features an interative map and a reviewing system. ",
     projectDescription:
-      "Floater is a web app that allows users to find wild swimming sites through geolocation or a post-code search. Users are able to review and comment on specific sites and can using a dynamic map, built with Leaflet.js, to see whether the site is near any sewage overflow sites. This project pulls data from APIs including the Enviroment Agency and the Rivers Trust. This project was a group effort as part of a final porject on my software development bootcamp and was created in one week",
+      "Floater is a web app that allows users to find wild swimming sites through geolocation or a postcode search. Users can review and comment on specific sites and can use a dynamic map, built with Leaflet.js, to see whether the site is near any sewage overflow sites. This project pulls data from APIs including the Environment Agency and the Rivers Trust. This project was a group effort as part of a final project on my software development boot camp and was created in one week.",
     projectFeatureTitle1: "Wild Swimming Discovery: ",
     projectFeature1:
       "Floater connects nature enthusiasts with hidden gems for wild swimming adventures in lakes, rivers, and the sea. Users can easily locate these serene spots and evaluate their suitability for a dip. ",
