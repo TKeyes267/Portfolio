@@ -90,7 +90,10 @@ const SingleProject = () => {
         </div>
         <div className="bg-teal text-moss flex flex-row justify-between items-center p-5">
           <div className="flex flex-row items-center gap-5">
-            <Link to={`${project.projectGitHubLink}`} className="inline-block ">
+            <Link
+              to={`${project.projectGitHubLink}`}
+              name="Link to project github page"
+            >
               <svg
                 stroke="currentColor"
                 fill="currentColor"
