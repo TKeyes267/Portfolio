@@ -133,6 +133,7 @@ const Header = () => {
             className=" bg-moss hover:bg-moss active:bg-moss py-0 px-0 rounded-none transition-all normal-case"
             ripple={false}
             onClick={() => setOpenNav(!openNav)}
+            name="mobile burger menu open"
           >
             <div className="h-screen w-screen flex flex-row-reverse justify-end ">
               <MenuOpenSharpIcon
@@ -140,7 +141,6 @@ const Header = () => {
                 strokeWidth={4}
                 viewBox="0 0 24 24"
                 fontSize="large"
-                name="mobile burger menu open"
               />
               <NavList />
             </div>
@@ -151,13 +151,13 @@ const Header = () => {
             className=" bg-teal py-0 px-0 rounded-none transition-all normal-case h-[7dvh]"
             ripple={false}
             onClick={() => setOpenNav(!openNav)}
+            name="mobile burger menu closed"
           >
             <MenuSharpIcon
               className="m-2.5 md:m-5 w-8 h-8 text-moss bg-transparent"
               strokeWidth={4}
               viewBox="0 0 24 24"
               fontSize="large"
-              name="mobile burger menu closed"
             />
           </Button>
         )}
