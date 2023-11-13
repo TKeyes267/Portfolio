@@ -140,6 +140,7 @@ const Header = () => {
                 strokeWidth={4}
                 viewBox="0 0 24 24"
                 fontSize="large"
+                name="mobile burger menu open"
               />
               <NavList />
             </div>
@@ -156,6 +157,7 @@ const Header = () => {
               strokeWidth={4}
               viewBox="0 0 24 24"
               fontSize="large"
+              name="mobile burger menu closed"
             />
           </Button>
         )}
