@@ -35,7 +35,7 @@ const ProjectCards = () => {
               <Link
                 to={`/${project.projectURL}`}
                 state={{ title }}
-                className="inline-block"
+                name="Link to project page"
               >
                 <div className="overflow-hidden">
                   <img
@@ -52,7 +52,7 @@ const ProjectCards = () => {
                 <Link
                   to={`/${project.projectURL}`}
                   state={{ title }}
-                  className="inline-block"
+                  name="Link to hosted project"
                 >
                   <Typography
                     color="blue"
@@ -72,7 +72,7 @@ const ProjectCards = () => {
                 <div className="flex flex-row items-center gap-5">
                   <Link
                     to={`${project.projectGitHubLink}`}
-                    className="inline-block "
+                    name="Link to project github page"
                   >
                     <svg
                       stroke="currentColor"
@@ -94,10 +94,10 @@ const ProjectCards = () => {
                 <Link
                   to={`/${project.projectURL}`}
                   state={{ title }}
-                  className="inline-block"
+                  name="Link to project page"
                 >
                   <Typography className="bg-moss text-teal hover:text-moss hover:bg-teal md:p-2 text-lg md:text-xl">
-                    Read More about {project.projectTitle}
+                    Read More
                   </Typography>
                 </Link>
               </CardFooter>
