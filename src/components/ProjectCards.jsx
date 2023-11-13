@@ -97,7 +97,7 @@ const ProjectCards = () => {
                   className="inline-block"
                 >
                   <Typography className="bg-moss text-teal hover:text-moss hover:bg-teal md:p-2 text-lg md:text-xl">
-                    Read More
+                    Read More about {project.projectTitle}
                   </Typography>
                 </Link>
               </CardFooter>
