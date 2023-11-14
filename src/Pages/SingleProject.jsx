@@ -92,7 +92,7 @@ const SingleProject = () => {
           <div className="flex flex-row items-center gap-5">
             <Link
               to={`${project.projectGitHubLink}`}
-              name="Link to project github page"
+              aria-label="Link to project github page"
             >
               <svg
                 stroke="currentColor"
@@ -109,13 +109,13 @@ const SingleProject = () => {
             </Link>
             <Link
               to={`${project.projectLink}`}
-              name="Link to hosted hosted project"
+              aria-label="Link to hosted hosted project"
             >
               <LaunchSharpIcon className="hover:text-moss hover:bg-teal"></LaunchSharpIcon>
             </Link>
           </div>
 
-          <Link to={`/#projectPage`} name="Link back to main page">
+          <Link to={`/#projectPage`} aria-label="Link back to main page">
             <Typography className="bg-teal text-moss hover:text-teal hover:bg-moss p-2 text-xl md:text-xl">
               Back
             </Typography>

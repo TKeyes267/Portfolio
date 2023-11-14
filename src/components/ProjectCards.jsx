@@ -35,7 +35,7 @@ const ProjectCards = () => {
               <Link
                 to={`/${project.projectURL}`}
                 state={{ title }}
-                name="Link to project page"
+                aria-label="Link to project page"
               >
                 <div className="overflow-hidden">
                   <img
@@ -52,7 +52,7 @@ const ProjectCards = () => {
                 <Link
                   to={`/${project.projectURL}`}
                   state={{ title }}
-                  name="Link to project page"
+                  aria-label="Link to project page"
                 >
                   <Typography
                     color="blue"
@@ -72,7 +72,7 @@ const ProjectCards = () => {
                 <div className="flex flex-row items-center gap-5">
                   <Link
                     to={`${project.projectGitHubLink}`}
-                    name="Link to project github page"
+                    aria-label="Link to project github page"
                   >
                     <svg
                       stroke="currentColor"
@@ -89,7 +89,7 @@ const ProjectCards = () => {
                   </Link>
                   <Link
                     to={`${project.projectLink}`}
-                    name="Link to hosted project page"
+                    aria-label="Link to hosted project page"
                   >
                     <LaunchSharpIcon className="hover:text-moss hover:bg-teal"></LaunchSharpIcon>
                   </Link>
@@ -97,7 +97,7 @@ const ProjectCards = () => {
                 <Link
                   to={`/${project.projectURL}`}
                   state={{ title }}
-                  name="Link to project page"
+                  aria-label="Link to project page"
                 >
                   <Typography className="bg-moss text-teal hover:text-moss hover:bg-teal md:p-2 text-lg md:text-xl">
                     Read More
