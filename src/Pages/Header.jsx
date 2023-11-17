@@ -16,7 +16,7 @@ function NavList() {
           <Typography
             as="li"
             variant="small"
-            className="h-fit font-light text-teal transition ease-in-out hover:-translate-x-20 text-6xl lg:text-8xl content-center font-tit tracking-wide"
+            className="h-fit font-light text-forest transition ease-in-out hover:-translate-x-20 text-6xl lg:text-8xl content-center font-tit tracking-wide"
           >
             <a
               href="#aboutPage"
@@ -29,7 +29,7 @@ function NavList() {
             as="li"
             variant="small"
             color="white"
-            className="h-fit font-light text-teal transition ease-in-out hover:-translate-x-20 text-6xl lg:text-8xl content-centerm font-tit tracking-wide"
+            className="h-fit font-light text-forest transition ease-in-out hover:-translate-x-20 text-6xl lg:text-8xl content-centerm font-tit tracking-wide"
           >
             <a
               href="#projectPage"
@@ -42,7 +42,7 @@ function NavList() {
             as="li"
             variant="small"
             color="white"
-            className="h-fit font-light text-teal transition ease-in-out hover:-translate-x-20 text-6xl lg:text-8xl content-center font-tit tracking-wide"
+            className="h-fit font-light text-forest transition ease-in-out hover:-translate-x-20 text-6xl lg:text-8xl content-center font-tit tracking-wide"
           >
             <a
               href="#skillsPage"
@@ -55,7 +55,7 @@ function NavList() {
             as="li"
             variant="small"
             color="white"
-            className="h-fit font-light text-teal transition ease-in-out hover:-translate-x-20 text-6xl lg:text-8xl content-center font-tit tracking-wide"
+            className="h-fit font-light text-forest transition ease-in-out hover:-translate-x-20 text-6xl lg:text-8xl content-center font-tit tracking-wide"
           >
             <a
               href="#contactPage"
@@ -69,7 +69,7 @@ function NavList() {
           <Typography
             as="li"
             color="white"
-            className=" font-light text-teal text-xl font-tit tracking-wide"
+            className=" font-light text-forest text-xl font-tit tracking-wide"
           >
             <a
               target="_blank"
@@ -83,7 +83,7 @@ function NavList() {
           <Typography
             as="li"
             color="white"
-            className=" font-light text-teal text-xl font-tit tracking-wide"
+            className=" font-light text-forest text-xl font-tit tracking-wide"
           >
             <a
               target="_blank"
@@ -97,7 +97,7 @@ function NavList() {
           <Typography
             as="li"
             color="white"
-            className=" font-light text-teal text-xl font-tit tracking-wide"
+            className=" font-light text-forest text-xl font-tit tracking-wide"
           >
             <a
               target="_blank"
@@ -111,7 +111,7 @@ function NavList() {
           <Typography
             as="li"
             color="white"
-            className="gap-12 flex flex-row items-center font-light text-teal text-xl font-tit tracking-wide"
+            className="gap-12 flex flex-row items-center font-light text-forest text-xl font-tit tracking-wide"
           >
             <LocationCitySharpIcon fontSize="medium" />
             Manchester, UK
@@ -126,7 +126,7 @@ const Header = () => {
   const [openNav, setOpenNav] = useState(false);
   return (
     <main>
-      <div className="bg-teal border-none z-50 flex flex-row justify-end lg:hidden">
+      <div className="bg-forest z-50 flex flex-row justify-end lg:hidden">
         {openNav ? (
           <Button
             variant="text"
@@ -137,7 +137,7 @@ const Header = () => {
           >
             <div className="h-screen w-screen flex flex-row-reverse justify-end ">
               <MenuOpenSharpIcon
-                className="m-2.5 md:m-5 w-8 h-8 text-teal bg-moss"
+                className="m-2.5 md:m-5 w-8 h-8 text-forest bg-moss"
                 strokeWidth={4}
                 viewBox="0 0 24 24"
                 fontSize="large"
@@ -148,13 +148,13 @@ const Header = () => {
         ) : (
           <Button
             variant="text"
-            className=" bg-teal py-0 px-0 rounded-none transition-all normal-case h-[7dvh]"
+            className=" bg-forest py-0 px-0 rounded-none transition-all normal-case h-[7dvh]"
             ripple={false}
             onClick={() => setOpenNav(!openNav)}
             name="mobile burger menu closed"
           >
             <MenuSharpIcon
-              className="m-2.5 md:m-5 w-8 h-8 text-moss bg-transparent"
+              className="m-2.5 md:m-5 w-8 h-8 text-moss bg-forest"
               strokeWidth={4}
               viewBox="0 0 24 24"
               fontSize="large"

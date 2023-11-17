@@ -9,8 +9,8 @@ import LocationCitySharpIcon from "@mui/icons-material/LocationCitySharp";
 const Contact = () => {
   return (
     <main>
-      <div className="w-[100dvw] h-[100dvh] grid grid-rows-2 bg-teal">
-        <div className="p-5 md:pl-10 md:py-10 flex flex-col justify-center bg-teal">
+      <div className="w-[100dvw] h-[100dvh] grid grid-rows-2 bg-forest">
+        <div className="p-5 md:pl-10 md:py-10 flex flex-col justify-center bg-forest">
           <Typography className="w-full text-9xl md:text-[12rem] xl:text-[15rem] text-moss font-tit flex ">
             Get in touch
           </Typography>

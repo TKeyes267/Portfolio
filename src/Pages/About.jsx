@@ -4,14 +4,14 @@ import IMAGES from "../assets/images/images";
 
 const About = () => {
   return (
-    <main className="w-[100dvw] lg:h-[100dvh] no-scrollbar h-full bg-moss">
+    <main className="w-[100dvw] no-scrollbar  bg-moss">
       <div className="lg:grid grid-cols-2">
-        <div className="bg-moss lg:h-[100dvh] h-full ">
-          <div className="block ml-auto mr-auto text-teal">
-            <Typography className="text-6xl md:text-8xl font-tit px-5 md:px-10 md:pt-20 py-10 md:pb-20 tracking-wide">
+        <div className="bg-moss ">
+          <div className="block ml-auto mr-auto text-forest">
+            <Typography className="text-6xl md:text-8xl font-tit px-5 md:px-20 md:pt-20 py-10 md:pb-20 tracking-wide">
               About
             </Typography>
-            <div className="px-5 md:px-10 ">
+            <div className="px-5 md:px-20 ">
               <Typography className="text-xl md:text-3xl lg:text-2xl font-tit pb-10 md:pb-20 leading-loose">
                 I'm a creative problem solver with a passion for green and
                 sustainable solutions. As a designer and developer, I believe
@@ -29,10 +29,10 @@ const About = () => {
                 I'm committed to using my skills to communicate pressing
                 environmental issues and leveraging technology for good. When
                 I'm not immersed in the world of web development, you'll find me
-                nurturing house plants, tending to my shrimp tank, or exploring
-                the endless possibilities of music technology. I'm excited to
-                connect with like-minded professionals who share my passion for
-                technology, creativity, and making a difference.
+                nurturing house plants or exploring the endless possibilities of
+                music technology. I'm excited to connect with like-minded
+                professionals who share my passion for technology, creativity,
+                and making a difference.
               </Typography>
             </div>
           </div>

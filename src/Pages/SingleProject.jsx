@@ -28,32 +28,32 @@ const SingleProject = () => {
   return (
     <main>
       <div className="bg-moss h-[full] w-[100dvw] ">
-        <div className="bg-teal p-5 md:p-10">
+        <div className="bg-moss p-5 md:p-10">
           <Typography
             color="blue"
-            className=" text-silver font-normal text-4xl md:text-7xl font-tit"
+            className=" text-forest font-normal text-4xl md:text-7xl font-tit"
           >
             {project.projectTitle}
           </Typography>
         </div>
 
-        <div className="pt-5 md:pt-10 ">
+        <div className=" lg:grid lg:grid-cols-2 bg-forest">
+          <div className="p-5 md:p-10 lg:p-20">
+            <img
+              src={project.projectImage2}
+              alt="image 2"
+              className="object-contain object-center"
+            />
+          </div>
           <Typography
             color="blue"
-            className=" text-teal font-normal text-2xl md:text-3xl font-tit px-20 "
+            className=" text-silver font-normal text-2xl md:text-3xl font-tit  p-10 md:p-10 lg:p-20 "
           >
             {project.projectDescription}
           </Typography>
         </div>
 
-        <div className="p-2.5 md:p-5 grid grid-cols-2">
-          <div className="p-2.5 md:p-5">
-            <img
-              src={project.projectImage2}
-              alt="image 2"
-              className="object-cover object-center"
-            />
-          </div>
+        <div className="p-2.5 md:p-5 lg:px-20">
           <ul className="p-2.5 md:p-5 flex flex-col">
             <Typography
               color="blue"
@@ -88,7 +88,7 @@ const SingleProject = () => {
             </Typography>
           </ul>
         </div>
-        <div className="bg-teal text-moss flex flex-row justify-between items-center p-5">
+        <div className="bg-forest text-moss flex flex-row justify-between items-center p-5">
           <div className="flex flex-row items-center gap-5">
             <Link
               to={`${project.projectGitHubLink}`}
@@ -99,7 +99,7 @@ const SingleProject = () => {
                 fill="currentColor"
                 strokeWidth="0"
                 viewBox="0 0 1024 1024"
-                className="w-5 h-5 md:w-6 md:h-6 hover:text-moss hover:bg-teal"
+                className="w-5 h-5 md:w-6 md:h-6 hover:text-moss hover:bg-forest"
                 height="1em"
                 width="1em"
                 xmlns="http://www.w3.org/2000/svg"
@@ -111,12 +111,12 @@ const SingleProject = () => {
               to={`${project.projectLink}`}
               aria-label="Link to hosted hosted project"
             >
-              <LaunchSharpIcon className="hover:text-moss hover:bg-teal"></LaunchSharpIcon>
+              <LaunchSharpIcon className="hover:text-moss hover:bg-forest"></LaunchSharpIcon>
             </Link>
           </div>
 
           <Link to={`/#projectPage`} aria-label="Link back to main page">
-            <Typography className="bg-teal text-moss hover:text-teal hover:bg-moss p-2 text-xl md:text-xl">
+            <Typography className="bg-forest text-moss hover:text-teal hover:bg-moss p-2 text-xl md:text-xl">
               Back
             </Typography>
           </Link>

@@ -8,8 +8,8 @@ const Landing = () => {
   const [openNav, setOpenNav] = useState(false);
 
   return (
-    <main className="bg-teal ">
-      <div className="w-[100dvw] h-[93vh] lg:h-[100vh] bg-teal bg-cover grid grid-rows-2 ">
+    <main>
+      <div className="w-[100dvw] h-[93vh] lg:h-[100vh] bg-forest bg-cover grid grid-rows-2 ">
         {/* <Header openNav={openNav} setOpenNav={setOpenNav} /> */}
         <div></div>
 

@@ -10,7 +10,7 @@ const SkillCards = () => {
   });
 
   return (
-    <div className="grid grid-cols-3 lg:grid-cols-6 gap-5 md:gap-15 justify-items-center place-content-around  bg-silver text-teal pb-10 lg:pb-0 ">
+    <div className="grid grid-cols-3 lg:grid-cols-6 gap-5 md:gap-15 justify-items-center place-content-around  bg-silver text-teal pb-10 lg:pb-20 mx-5 ">
       {skills.map((skill) => {
         return (
           <Card
@@ -20,7 +20,7 @@ const SkillCards = () => {
             <CardBody className="p-0 rounded-none">
               <i className={skill.skillLogo}></i>
             </CardBody>
-            <Typography className="py-4 md:py-8 text-md md:text-2xl text-forest font-tit">
+            <Typography className="py-5 md:py-10 text-md md:text-2xl text-forest font-tit">
               {skill.skillName}
             </Typography>
           </Card>
