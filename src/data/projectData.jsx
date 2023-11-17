@@ -4,9 +4,9 @@ export const projectData = [
     projectTitle: "Air Pollution Checker",
     projectURL: "Air_Pollution_Checker",
     projectSummary:
-      "UK Air Pollution Checker is a mobile application built with React Native designed to empower users by providing real-time information about air quality in their area.",
+      "Air Pollution Checker is a mobile application built with React Native designed to empower users by providing real-time information about air quality in their area.",
     projectDescription:
-      "UK Air Pollution Checker is a mobile application built with React Native designed to empower users by providing real-time information about air quality in their area. Whether you're concerned about personal health or the environment, this app offers a straightforward and informative solution.",
+      "Air Pollution Checker is a mobile application built with React Native designed to empower users by providing real-time information about air quality in their area. Whether you're concerned about personal health or the environment, this app offers a straightforward and informative solution.",
     projectFeatureTitle1: "Location-based AQI: ",
     projectFeature1:
       "The app offers users the ability to check air pollution by inputting a postcode or allowing automatic geolocation. It displays an intuitive color-coded Air Quality Index (AQI) to quickly communicate the air quality level. ",
@@ -27,7 +27,7 @@ export const projectData = [
       import.meta.url
     ).href,
     projectImage2: new URL(
-      "/src/assets/images/AirPollutionLaptop.jpg",
+      "/src/assets/images/PortfolioMockupDoubleMobileAirPollution.png",
       import.meta.url
     ).href,
   },

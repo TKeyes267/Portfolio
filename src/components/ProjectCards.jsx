@@ -79,7 +79,7 @@ const ProjectCards = () => {
                           state={{ title }}
                           aria-label="Link to project page"
                         >
-                          <Typography className="bg-forest text-moss hover:text-teal hover:bg-moss text-md md:text-lg w-fit p-1 font-tit lg:mx-20">
+                          <Typography className="bg-forest border-[1px] border-moss text-moss hover:text-teal hover:bg-moss text-md md:text-lg w-fit p-1 font-tit lg:mx-20">
                             Read more about this project
                           </Typography>
                         </Link>
@@ -119,7 +119,7 @@ const ProjectCards = () => {
                           state={{ title }}
                           aria-label="Link to project page"
                         >
-                          <Typography className="bg-forest text-moss hover:text-teal hover:bg-moss text-md md:text-lg w-fit p-1 font-tit lg:mx-20">
+                          <Typography className="bg-forest border-[1px] border-moss text-moss hover:text-teal hover:bg-moss text-md md:text-lg w-fit p-1 font-tit lg:mx-20">
                             Read more about this project
                           </Typography>
                         </Link>
