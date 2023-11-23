@@ -16,47 +16,48 @@ export const skillData = [
   },
   {
     skillID: 4,
+    skillName: "Next.js",
+    skillLogo: "devicon-nextjs-plain colored text-3xl md:text-6xl",
+  },
+  {
+    skillID: 5,
     skillName: "React",
     skillLogo: "devicon-react-original colored text-3xl md:text-6xl",
   },
   {
-    skillID: 5,
+    skillID: 6,
     skillName: "React Native",
     skillLogo: "devicon-react-plain text-forest text-3xl md:text-6xl",
   },
   {
-    skillID: 6,
+    skillID: 7,
     skillName: "TailwindCSS",
     skillLogo: "devicon-tailwindcss-plain colored text-3xl md:text-6xl",
   },
   {
-    skillID: 7,
+    skillID: 8,
     skillName: "Node.js",
     skillLogo: "devicon-nodejs-plain colored text-3xl md:text-6xl",
   },
   {
-    skillID: 8,
+    skillID: 9,
     skillName: "PostgreSQL",
     skillLogo: "devicon-postgresql-plain colored text-3xl md:text-6xl",
   },
   {
-    skillID: 9,
-    skillName: "Jest",
-    skillLogo: "devicon-jest-plain colored text-3xl md:text-6xl",
-  },
-  {
     skillID: 10,
-    skillName: "Figma",
-    skillLogo: "devicon-figma-plain colored text-3xl md:text-6xl",
+    skillName: "MongoDB",
+    skillLogo: "devicon-mongodb-plain colored text-3xl md:text-6xl",
   },
   {
     skillID: 11,
-    skillName: "Photoshop",
-    skillLogo: "devicon-photoshop-plain colored text-3xl md:text-6xl",
+    skillName: "Figma",
+    skillLogo: "devicon-figma-plain colored text-3xl md:text-6xl",
   },
+
   {
     skillID: 12,
-    skillName: "Illustrator",
-    skillLogo: "devicon-illustrator-plain colored text-3xl md:text-6xl",
+    skillName: "Jest",
+    skillLogo: "devicon-jest-plain colored text-3xl md:text-6xl",
   },
 ];

@@ -1,6 +1,8 @@
 import { Typography } from "@material-tailwind/react";
 
-import IMAGES from "../assets/images/images";
+// import IMAGES from "../assets/images/images";
+
+import Headshot from "../assets/images/HeadshotPortfolio1.jpg";
 
 const About = () => {
   return (
@@ -21,7 +23,7 @@ const About = () => {
                 challenges.
               </Typography>
               <img
-                src={IMAGES.Headshot}
+                src={Headshot}
                 alt="Headshot"
                 className="visible lg:hidden h-full w-full object-cover object-center pb-10 md:pb-20"
               />
@@ -39,7 +41,7 @@ const About = () => {
         </div>
         <div className="hidden lg:flex flex-col justify-center">
           <img
-            src={IMAGES.Headshot}
+            src={Headshot}
             alt="Headshot"
             className=" h-full w-full object-cover object-center"
           />
